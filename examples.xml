@@ -1,0 +1,462 @@
+<?xml version="1.0"?>
+<demos>
+  <demoitem>
+    <source>OrbitPropagatorBlockConstellationExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex20696754</metadata>
+    <thumbnail>html/OrbitPropagatorBlockConstellationExample_04.png</thumbnail>
+    <sandboxPublished/>
+    <product>aero</product>
+    <product>aeroblks</product>
+    <file component="aeroblks" timestamp="1607636770">OrbitPropagatorBlockExampleModel.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>WrightFlyerAndPilotWithScopesForDataVisualizationExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex22490391</metadata>
+    <product>matlab</product>
+    <product>aeroblks</product>
+    <file component="aeroblks" timestamp="1678111432">aeroblk_wf_3dof_data.m</file>
+    <file component="aeroblks" timestamp="1678011813">aeroblk_wf_3dof_noVR.slx</file>
+    <file component="aeroblks" timestamp="1688063543">aeroblk_lib_wf_3dof.slx</file>
+    <file component="aeroblks" timestamp="1607636785">snapshotModel.m</file>
+    <file component="aeroblks" timestamp="1678034355">aeroblk_wf_atmos.jpg</file>
+    <file component="aeroblks" timestamp="1678034355">aeroblk_wf.jpg</file>
+    <file component="aeroblks" timestamp="1678034355">aeroblk_orville.jpg</file>
+  </demoitem>
+  <demoitem>
+    <source>HohmannTransferWithTheSpacecraftDynamicsBlockExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex25303483</metadata>
+    <sandboxPublished/>
+    <product>matlab</product>
+    <product>aeroblks</product>
+    <product>aero</product>
+    <file component="aeroblks" timestamp="1672775646">hohmannTransfer.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>SelfConditionedControllerComparisonExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex26805862</metadata>
+    <thumbnail>html/SelfConditionedControllerComparisonExample_01.png</thumbnail>
+    <hideCode/>
+    <product>matlab</product>
+    <product>aeroblks</product>
+    <product>aero</product>
+    <product>control</product>
+    <product>simulink</product>
+    <file component="aeroblks" timestamp="1669659075">asbSelfCondCntr.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>SpaceRendezvousAndDockingExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex31027523</metadata>
+    <thumbnail>html/SpaceRendezvousAndDockingExample_26.png</thumbnail>
+    <sandboxPublished/>
+    <product>matlab</product>
+    <product>aeroblks</product>
+    <product>aero</product>
+    <product>stateflow</product>
+    <product>optim</product>
+    <file component="aeroblks" timestamp="1686587752">SpaceRendezvousAndDockingExample.slx</file>
+    <file component="aeroblks" timestamp="1689105691">SpaceRendezvousAndDockingExampleCalculateAttitude.m</file>
+    <file component="aeroblks" timestamp="1689105691">SpaceRendezvousAndDockingExampleConstraintFcn.m</file>
+    <file component="aeroblks" timestamp="1689105691">SpaceRendezvousAndDockingExampleObjectiveFcn.m</file>
+  </demoitem>
+  <demoitem>
+    <source>ParachuteSimulationExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex36057568</metadata>
+    <sandboxPublished/>
+    <product>matlab</product>
+    <product>aeroblks</product>
+    <product>aero</product>
+    <product>simulink</product>
+    <file component="aeroblks" timestamp="1662987381">ParachuteSim.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>FlyingQuality6DOFAnalysisExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex38060860</metadata>
+    <thumbnail>html/FlyingQuality6DOFAnalysisExample_01.png</thumbnail>
+    <product>matlab</product>
+    <product>aeroblks</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>AutonomousUnderwaterVehicleExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex38112115</metadata>
+    <thumbnail>html/AutonomousUnderwaterVehicleExample_01.png</thumbnail>
+    <product>matlab</product>
+    <product>aeroblks</product>
+    <product>dsp</product>
+    <file component="aeroblks" timestamp="1688508083">asbAUV.slx</file>
+    <file component="aeroblks" timestamp="1688508083">asbAUVax.m</file>
+    <file component="aeroblks" timestamp="1685483557">asbAUVlib.slx</file>
+    <file component="aeroblks" timestamp="1685483557">asbTransRefScenario.mat</file>
+    <file component="aeroblks" timestamp="1685517111">livePosition150.JPG</file>
+    <file component="aeroblks" timestamp="1681382404">switchPositionDemo.JPG</file>
+    <file component="aeroblks" timestamp="1681382404">thrustStateDemo150.JPG</file>
+  </demoitem>
+  <demoitem>
+    <source>QuaternionEstimateFromMeasuredRatesExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex38841999</metadata>
+    <hideCode/>
+    <product>matlab</product>
+    <product>aeroblks</product>
+    <product>aero</product>
+    <product>simulink</product>
+    <file component="aeroblks" timestamp="1669659378">asbQuatEML.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>ModelingASixDegreeOfFreedomMotionPlatformExample</source>
+    <type>model</type>
+    <extension>m</extension>
+    <file>html/ModelingASixDegreeOfFreedomMotionPlatformExample.html</file>
+    <metadata>ex40866090</metadata>
+    <thumbnail>html/ModelingASixDegreeOfFreedomMotionPlatformExample_01.png</thumbnail>
+    <hideCode/>
+    <product>matlab</product>
+    <product>aeroblks</product>
+    <product>aero</product>
+    <product>simulink</product>
+    <file component="aeroblks" open="open" timestamp="1669640643">asb6Dof.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>TrueAirspeedFromIndicatedAirspeedCalculationExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex42352426</metadata>
+    <product>matlab</product>
+    <product>aeroblks</product>
+    <file component="aeroblks" timestamp="1677956808">aeroblk_aircaldata.m</file>
+    <file component="aeroblks" timestamp="1607636785">snapshotModel.m</file>
+    <file component="aeroblks" timestamp="1678001975">aeroblk_calibrated.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>CollisionAvoidanceManeuverForUpcomingConjunctionExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex44736143</metadata>
+    <thumbnail>html/CollisionAvoidanceManeuverForUpcomingConjunctionExample_02.png</thumbnail>
+    <sandboxPublished/>
+    <product>matlab</product>
+    <product>aeroblks</product>
+    <file component="aeroblks" timestamp="1689962402">maxCollisionProbability2D.m</file>
+    <file component="aeroblks" timestamp="1689962402">findConjunctions.m</file>
+    <file component="aeroblks" timestamp="1689962402">drawConjunction.m</file>
+    <file component="aeroblks" timestamp="1689962402">collisionProbability2D.m</file>
+    <file component="aeroblks" timestamp="1688134006">Conjunction_Starlink1735_Starlink2304.txt</file>
+    <file component="aeroblks" timestamp="1688134006">Conjunction_Starlink1079_CZ2DDeb.txt</file>
+    <file component="aeroblks" timestamp="1688134006">Conjunction_BrioStarlink.txt</file>
+    <file component="aeroblks" timestamp="1689962402">dcmicrf2lvlh.m</file>
+    <file component="aeroblks" timestamp="1689962402">OrbitPropagationModel.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>CustomVerticalTakeoffAndLandingExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex45250211</metadata>
+    <thumbnail>html/CustomVerticalTakeoffAndLandingExample_02.jpeg</thumbnail>
+    <product>matlab</product>
+    <product>aeroblks</product>
+    <product>sl3d</product>
+    <file component="aeroblks" timestamp="1705070572">acconfig.m</file>
+    <file component="aeroblks" timestamp="1705070572">accruise.m</file>
+    <file component="aeroblks" timestamp="1705070572">acldggear.m</file>
+    <file component="aeroblks" timestamp="1705070572">acsetup.m</file>
+    <file component="aeroblks" timestamp="1705070572">actakeoff.m</file>
+    <file component="aeroblks" timestamp="1705070572">acwingflaps.m</file>
+    <file component="aeroblks" timestamp="1705070572">geotransform.m</file>
+    <file component="aeroblks" timestamp="1705070572">timeindices.m</file>
+    <file component="aeroblks" timestamp="1705070572">CustomVTOLExample.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>LongitudinalFlyingQuality3DOFAnalysisExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex48105830</metadata>
+    <thumbnail>html/LongitudinalFlyingQuality3DOFAnalysisExample_01.png</thumbnail>
+    <product>matlab</product>
+    <product>aeroblks</product>
+    <product>control</product>
+  </demoitem>
+  <demoitem>
+    <source>SpacecraftDynamicsCustomAttitudeExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex48458864</metadata>
+    <thumbnail>html/SpacecraftDynamicsCustomAttitudeExample_04.png</thumbnail>
+    <sandboxPublished/>
+    <product>matlab</product>
+    <product>aeroblks</product>
+    <file component="aeroblks" timestamp="1643976010">SpacecraftDynamicsCustomAttitudeExampleModel.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>GettingStartedWithTheSpacecraftDynamicsBlockExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex52019331</metadata>
+    <thumbnail>html/GettingStartedWithTheSpacecraftDynamicsBlockExample_25.png</thumbnail>
+    <product>aeroblks</product>
+    <file component="aeroblks" timestamp="1643977840">SpacecraftDynamicsBlockExampleModel.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>NASAHL20VisualizationUsingUnrealEngineExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex55562132</metadata>
+    <thumbnail>html/NASAHL20VisualizationUsingUnrealEngineExample_09.png</thumbnail>
+    <product>matlab</product>
+    <product>aeroblks</product>
+    <product>simulink</product>
+    <file component="aeroblks" timestamp="1688568684">aeroblk_HL20_UE.slx</file>
+    <file component="aeroblks" timestamp="1655490041">aeroblk_HL20_autopilot_gains.mat</file>
+    <file component="aeroblks" timestamp="1655490041">aeroblk_HL20_glideslope.mat</file>
+    <file component="aeroblks" timestamp="1655490041">aeroblk_HL20pic.jpg</file>
+    <file component="aeroblks" timestamp="1688568684">aeroblk_init_HL20.m</file>
+    <file component="aeroblks" timestamp="1655490041">aeroblk_lib_HL20.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>FlyTheDeHavillandBeaverExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex60999197</metadata>
+    <product>matlab</product>
+    <product>aeroblks</product>
+    <file component="aeroblks" timestamp="1655478050">asbbeaver.jpg</file>
+    <file component="aeroblks" timestamp="1666968703">asbdhc2_init.mat</file>
+    <file component="aeroblks" timestamp="1687646684">asbdhc2.slx</file>
+    <file component="aeroblks" timestamp="1607636785">snapshotModel.m</file>
+  </demoitem>
+  <demoitem>
+    <source>GenerateUnrealEngineLandscapeExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex61385651</metadata>
+    <product>matlab</product>
+    <product>aeroblks</product>
+    <file component="aeroblks" timestamp="1692954342">CreateLandscapeEnv.png</file>
+    <file component="aeroblks" timestamp="1692954342">CreateLandscapeUE.png</file>
+    <file component="aeroblks" timestamp="1692954342">ImportHeightmapFile.png</file>
+    <file component="aeroblks" timestamp="1692954342">Lgray_uint16.png</file>
+    <file component="aeroblks" timestamp="1692954342">NewLandscapeSmall.png</file>
+    <file component="aeroblks" timestamp="1692954342">Reparent.png</file>
+  </demoitem>
+  <demoitem>
+    <source>ConvertPressureExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex62530334</metadata>
+    <product>matlab</product>
+    <product>aeroblks</product>
+    <file component="aeroblks" timestamp="1656509138">ConvertPressurePsiToPa.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>UsingSimulation3DVisualizationWithAerospaceBlocksetExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex64214000</metadata>
+    <product>matlab</product>
+    <product>aeroblks</product>
+    <product>aero</product>
+    <product>simulink</product>
+    <file component="aeroblks" timestamp="1624018588">asbSkyHogg.jpg</file>
+    <file component="aeroblks" timestamp="1624018588">asbSkyHoggData.mat</file>
+    <file component="aeroblks" timestamp="1683884324">SkyHoggSim3DExampleModel.slx</file>
+    <file component="aeroblks" timestamp="1678879913">asbSkyHogg.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>WrightFlyerAndPilotWithSimulink3DAnimationExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex67214614</metadata>
+    <thumbnail>data/wf_vrml.png</thumbnail>
+    <product>matlab</product>
+    <product>aeroblks</product>
+    <product>sl3d</product>
+    <file component="aeroblks" timestamp="1692953806">aeroblk_lib_wf_3dof.slx</file>
+    <file component="aeroblks" timestamp="1678113487">aeroblk_wf_3dof_data.m</file>
+    <file component="aeroblks" timestamp="1607636785">snapshotModel.m</file>
+    <file component="aeroblks" timestamp="1720781407">aeroblk_wf_3dof.slx</file>
+    <file component="aeroblks" timestamp="1678033851">aeroblk_orville.jpg</file>
+    <file component="aeroblks" timestamp="1678033851">aeroblk_wf.jpg</file>
+    <file component="aeroblks" timestamp="1678033851">aeroblk_wf_atmos.jpg</file>
+    <file component="aeroblks" timestamp="1678033851">aeroblk_wf_3dof.wrl</file>
+    <file component="aeroblks" timestamp="1720781407">wf_vrml.png</file>
+  </demoitem>
+  <demoitem>
+    <source>SimpleActuatorSystemModelExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex67825202</metadata>
+    <product>aeroblks</product>
+    <file component="aeroblks" timestamp="1680513216">aeroblktutorial.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>ComputationOfThrustAndTorqueCoefficientsUsingRotorBlockExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex67888542</metadata>
+    <thumbnail>html/ComputationOfThrustAndTorqueCoefficientsUsingRotorBlockExample_01.png</thumbnail>
+    <product>matlab</product>
+    <product>aeroblks</product>
+    <product>optim</product>
+    <file component="aeroblks" timestamp="1723470137">CTCQcomputation.slx</file>
+    <file component="aeroblks" timestamp="1721382651">NACA0015data.mat</file>
+    <file component="aeroblks" timestamp="1723470137">Ref1Nb2Data.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>AirframeTrimAndLinearizeWithSimulinkControlDesignExample</source>
+    <type>M-file</type>
+    <extension>m</extension>
+    <metadata>ex73597100</metadata>
+    <thumbnail>html/AirframeTrimAndLinearizeWithSimulinkControlDesignExample_02.png</thumbnail>
+    <product>matlab</product>
+    <product>aeroblks</product>
+    <product>slcontrol</product>
+    <file component="aeroblks" timestamp="1651669800">aeroblk_guid_dat.m</file>
+    <file component="aeroblks" timestamp="1677945470">aeroblk_guidance_airframe.slx</file>
+    <file component="aeroblks" timestamp="1651164508">aeroblk_guid_autop.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>LunarMissionAnalysisWithTheOrbitPropagatorBlockExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex74540771</metadata>
+    <thumbnail>html/LunarMissionAnalysisWithTheOrbitPropagatorBlockExample_01.png</thumbnail>
+    <product>aeroblks</product>
+    <product>map</product>
+    <file component="aeroblks" timestamp="1637597851">LunarOrbitPropagatorBlockExampleModel.slx</file>
+    <file component="aeroblks" timestamp="1637597851">lunarGeographicalData.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>GravityModelsWithPrecessingReferenceFrameExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex77661940</metadata>
+    <thumbnail>html/GravityModelsWithPrecessingReferenceFrameExample_01.png</thumbnail>
+    <product>matlab</product>
+    <product>aeroblks</product>
+    <file component="aeroblks" timestamp="1680879315">asbGravWPrec.slx</file>
+  </demoitem>
+  <demoitem>
+    <source>OrbitPropagatorBlockMissionAnalysisExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex78298010</metadata>
+    <thumbnail>html/OrbitPropagatorBlockMissionAnalysisExample_07.png</thumbnail>
+    <sandboxPublished/>
+    <product>matlab</product>
+    <product>aero</product>
+    <product>aeroblks</product>
+    <product>map</product>
+    <file component="aeroblks" timestamp="1607974876">addLLAToTimetable.m</file>
+    <file component="aeroblks" timestamp="1607974887">calcLatLonBounds.m</file>
+    <file component="aeroblks" timestamp="1607974897">plot2DTrajectories.m</file>
+    <file component="aeroblks" timestamp="1647860115">plot3DTrajectories.m</file>
+    <file component="aeroblks" timestamp="1607974928">plotAccessIntervals.m</file>
+    <file component="aeroblks" timestamp="1658492296">OrbitPropagatorBlockExampleModel.slx</file>
+    <file component="aeroblks" timestamp="1607636785">snapshotModel.m</file>
+    <file component="aeroblks" timestamp="1607975641">AeroExampleEarthTopo.mat</file>
+    <file component="aeroblks" timestamp="1607975770">getTextOverlayPos.m</file>
+  </demoitem>
+  <demoitem>
+    <source>HighPrecisionOrbitPropagationISSExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex79030051</metadata>
+    <thumbnail>html/HighPrecisionOrbitPropagationISSExample_01.png</thumbnail>
+    <sandboxPublished/>
+    <product>matlab</product>
+    <product>aeroblks</product>
+    <product>aerospaceephemerisdata</product>
+    <file component="aeroblks" timestamp="1690553506">ISSHighPrecisionOrbitPropagationExampleModel.slx</file>
+    <file component="aeroblks" timestamp="1658492690">ISS_ephemeris.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>LightweightAirplaneDesignExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex79742687</metadata>
+    <product>matlab</product>
+    <product>aeroblks</product>
+    <product>slcontrol</product>
+    <file component="aeroblks" timestamp="1678024578">asbSkyHogg.jpg</file>
+    <file component="aeroblks" timestamp="1678024578">asbSkyHoggData.mat</file>
+    <file component="aeroblks" timestamp="1678024578">asbSkyHoggDatcom_old.out</file>
+    <file component="aeroblks" timestamp="1678024578">asbSkyHoggDatcom_old.in</file>
+    <file component="aeroblks" timestamp="1678024578">asbSkyHoggDatcom.out</file>
+    <file component="aeroblks" timestamp="1678024578">asbSkyHoggDatcom.in</file>
+    <file component="aeroblks" timestamp="1678879913">asbSkyHogg.slx</file>
+    <file component="aeroblks" timestamp="1678024578">asbSkyHoggControlProject.mat</file>
+    <file component="aeroblks" timestamp="1607636785">snapshotModel.m</file>
+    <file component="aeroblks" timestamp="1678110513">asbPrepDatcom.m</file>
+  </demoitem>
+  <demoitem>
+    <source>HL20WithFlightInstrumentationBlocksExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex86491321</metadata>
+    <thumbnail>html/HL20WithFlightInstrumentationBlocksExample_02.png</thumbnail>
+    <product>matlab</product>
+    <product>aeroblks</product>
+    <product>aero</product>
+    <file component="aeroblks" timestamp="1663668406">HL20Gauges.slx</file>
+    <file component="aeroblks" timestamp="1655490041">aeroblk_lib_HL20.slx</file>
+    <file component="aeroblks" timestamp="1655490041">aeroblk_init_HL20.m</file>
+    <file component="aeroblks" timestamp="1655490041">aeroblk_HL20pic.jpg</file>
+    <file component="aeroblks" timestamp="1655490041">aeroblk_HL20_autopilot_gains.mat</file>
+    <file component="aeroblks" timestamp="1655490041">aeroblk_HL20_glideslope.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>MultipleAircraftWithCollaborativeControlExample</source>
+    <type>model</type>
+    <extension>m</extension>
+    <file>html/MultipleAircraftWithCollaborativeControlExample.html</file>
+    <metadata>ex89839536</metadata>
+    <product>matlab</product>
+    <product>aeroblks</product>
+    <file component="aeroblks" open="open" timestamp="1682920285">asbswarm.slx</file>
+    <file component="aeroblks" timestamp="1682844506">asbswarmInit.m</file>
+    <file component="aeroblks" timestamp="1682844506">asbswarmVehicleData.m</file>
+    <file component="aeroblks" timestamp="1682844062">asbswarm_lib.slx</file>
+    <file component="aeroblks" timestamp="1682844062">obstacle.mat</file>
+  </demoitem>
+  <demoitem>
+    <source>IndicatedAirspeedFromTrueAirspeedCalculationExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex91524248</metadata>
+    <thumbnail>html/IndicatedAirspeedFromTrueAirspeedCalculationExample_01.png</thumbnail>
+    <product>matlab</product>
+    <product>aeroblks</product>
+    <file component="aeroblks" timestamp="1677956808">aeroblk_aircaldata.m</file>
+    <file component="aeroblks" timestamp="1677999722">aeroblk_indicated.slx</file>
+    <file component="aeroblks" timestamp="1607636785">snapshotModel.m</file>
+  </demoitem>
+  <demoitem>
+    <source>FlyTheDeHavillandBeaverWithUnrealEngineVisualizationExample</source>
+    <type>live</type>
+    <extension>mlx</extension>
+    <metadata>ex93871325</metadata>
+    <thumbnail>html/FlyTheDeHavillandBeaverWithUnrealEngineVisualizationExample_10.png</thumbnail>
+    <product>matlab</product>
+    <product>aeroblks</product>
+    <product>simulink</product>
+    <file component="aeroblks" timestamp="1655478050">asbbeaver.jpg</file>
+    <file component="aeroblks" timestamp="1688568810">asbdhc2_FlyBeaverUE.slx</file>
+    <file component="aeroblks" timestamp="1666968703">asbdhc2_init.mat</file>
+  </demoitem>
+</demos>
