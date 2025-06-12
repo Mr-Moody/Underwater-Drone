@@ -1,1 +1,3 @@
 %% HERE WE GOO!!!!! WHOOP WHOOP!!
+
+DENSITY = 7800;
