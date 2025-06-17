@@ -1625,3 +1625,107 @@ FPackageName: Skipped package /Game/SimBlank/Levels/Plane_005 has a valid, mount
 [2025.06.17-21.12.14:098][362]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 341.050354
 [2025.06.17-21.12.15:100][365]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.06.17-21.12.15:100][365]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 341.723633, Update Interval: 342.679535
+[2025.06.17-21.14.45:239][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2025.06.17-21.14.45:241][ 14]Cmd: MAP LOAD FILE="../../../../../../Programming/Competitions/MATLAB/Underwater-Drone/Simulation/Environment/unreal_seabed/Content/SM_seabed2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2025.06.17-21.14.45:254][ 14]LogWorld: UWorld::CleanupWorld for SM_seabed, bSessionEnded=true, bCleanupResources=true
+[2025.06.17-21.14.45:254][ 14]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.06.17-21.14.45:270][ 14]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.06.17-21.14.45:273][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.06.17-21.14.45:274][ 14]LogStreaming: Display: FlushAsyncLoading(541): 1 QueuedPackages, 0 AsyncPackages
+[2025.06.17-21.14.45:277][ 14]LogGeoReferencing: Display: Enable World Bounds Checks is enabled in your World Settings. You might consider disabling it when working with large terrains, otherwise your pawns won't be able to go too far from the Origin
+[2025.06.17-21.14.45:277][ 14]LogGeoReferencing: Display: Setting search path in ../../../Engine/Plugins/Runtime/GeoReferencing/Resources/PROJ 
+[2025.06.17-21.14.45:281][ 14]LogAudio: Display: Audio Device (ID: 1) registered with world 'SM_seabed2'.
+[2025.06.17-21.14.45:281][ 14]LogChaosDD: Creating Chaos Debug Draw Scene for world SM_seabed2
+[2025.06.17-21.14.45:285][ 14]PIE: Warning: AttachTo: '/Game/SM_seabed2.SM_seabed2:PersistentLevel.FbxScene_seabed_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_seabed"), cannot attach '/Game/SM_seabed2.SM_seabed2:PersistentLevel.FbxScene_seabed_C_0.Cave' which is static to it. Aborting.
+[2025.06.17-21.14.45:285][ 14]PIE: Warning: AttachTo: '/Game/SM_seabed2.SM_seabed2:PersistentLevel.FbxScene_seabed_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_seabed"), cannot attach '/Game/SM_seabed2.SM_seabed2:PersistentLevel.FbxScene_seabed_C_0.Plane' which is static to it. Aborting.
+[2025.06.17-21.14.45:285][ 14]PIE: Warning: AttachTo: '/Game/SM_seabed2.SM_seabed2:PersistentLevel.FbxScene_seabed_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_seabed"), cannot attach '/Game/SM_seabed2.SM_seabed2:PersistentLevel.FbxScene_seabed_C_0.Rock Arch' which is static to it. Aborting.
+[2025.06.17-21.14.45:285][ 14]PIE: Warning: AttachTo: '/Game/SM_seabed2.SM_seabed2:PersistentLevel.FbxScene_seabed_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_seabed"), cannot attach '/Game/SM_seabed2.SM_seabed2:PersistentLevel.FbxScene_seabed_C_0.SeaweedBody' which is static to it. Aborting.
+[2025.06.17-21.14.45:285][ 14]PIE: Warning: AttachTo: '/Game/SM_seabed2.SM_seabed2:PersistentLevel.FbxScene_seabed_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_seabed"), cannot attach '/Game/SM_seabed2.SM_seabed2:PersistentLevel.FbxScene_seabed_C_0.SeaweedBody_001' which is static to it. Aborting.
+[2025.06.17-21.14.45:285][ 14]PIE: Warning: AttachTo: '/Game/SM_seabed2.SM_seabed2:PersistentLevel.FbxScene_seabed_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_seabed"), cannot attach '/Game/SM_seabed2.SM_seabed2:PersistentLevel.FbxScene_seabed_C_0.SeaweedBody_002' which is static to it. Aborting.
+[2025.06.17-21.14.45:285][ 14]PIE: Warning: AttachTo: '/Game/SM_seabed2.SM_seabed2:PersistentLevel.FbxScene_seabed_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_seabed"), cannot attach '/Game/SM_seabed2.SM_seabed2:PersistentLevel.FbxScene_seabed_C_0.SeaweedBody_003' which is static to it. Aborting.
+[2025.06.17-21.14.45:285][ 14]PIE: Warning: AttachTo: '/Game/SM_seabed2.SM_seabed2:PersistentLevel.FbxScene_seabed_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_seabed"), cannot attach '/Game/SM_seabed2.SM_seabed2:PersistentLevel.FbxScene_seabed_C_0.SeaweedBody_004' which is static to it. Aborting.
+[2025.06.17-21.14.45:285][ 14]PIE: Warning: AttachTo: '/Game/SM_seabed2.SM_seabed2:PersistentLevel.FbxScene_seabed_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_seabed"), cannot attach '/Game/SM_seabed2.SM_seabed2:PersistentLevel.FbxScene_seabed_C_0.SeaweedCurve' which is static to it. Aborting.
+[2025.06.17-21.14.45:285][ 14]PIE: Warning: AttachTo: '/Game/SM_seabed2.SM_seabed2:PersistentLevel.FbxScene_seabed_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_seabed"), cannot attach '/Game/SM_seabed2.SM_seabed2:PersistentLevel.FbxScene_seabed_C_0.SeaweedCurve_001' which is static to it. Aborting.
+[2025.06.17-21.14.45:285][ 14]PIE: Warning: AttachTo: '/Game/SM_seabed2.SM_seabed2:PersistentLevel.FbxScene_seabed_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_seabed"), cannot attach '/Game/SM_seabed2.SM_seabed2:PersistentLevel.FbxScene_seabed_C_0.SeaweedCurve_002' which is static to it. Aborting.
+[2025.06.17-21.14.45:285][ 14]PIE: Warning: AttachTo: '/Game/SM_seabed2.SM_seabed2:PersistentLevel.FbxScene_seabed_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_seabed"), cannot attach '/Game/SM_seabed2.SM_seabed2:PersistentLevel.FbxScene_seabed_C_0.SeaweedCurve_003' which is static to it. Aborting.
+[2025.06.17-21.14.45:285][ 14]PIE: Warning: AttachTo: '/Game/SM_seabed2.SM_seabed2:PersistentLevel.FbxScene_seabed_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_seabed"), cannot attach '/Game/SM_seabed2.SM_seabed2:PersistentLevel.FbxScene_seabed_C_0.SeaweedCurve_004' which is static to it. Aborting.
+[2025.06.17-21.14.45:285][ 14]PIE: Warning: AttachTo: '/Game/SM_seabed2.SM_seabed2:PersistentLevel.FbxScene_seabed_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_seabed"), cannot attach '/Game/SM_seabed2.SM_seabed2:PersistentLevel.FbxScene_seabed_C_0.SeaweedCurve_005' which is static to it. Aborting.
+[2025.06.17-21.14.45:285][ 14]PIE: Warning: AttachTo: '/Game/SM_seabed2.SM_seabed2:PersistentLevel.FbxScene_seabed_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_seabed"), cannot attach '/Game/SM_seabed2.SM_seabed2:PersistentLevel.FbxScene_seabed_C_0.Wall1' which is static to it. Aborting.
+[2025.06.17-21.14.45:285][ 14]PIE: Warning: AttachTo: '/Game/SM_seabed2.SM_seabed2:PersistentLevel.FbxScene_seabed_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_seabed"), cannot attach '/Game/SM_seabed2.SM_seabed2:PersistentLevel.FbxScene_seabed_C_0.Wall2' which is static to it. Aborting.
+[2025.06.17-21.14.45:285][ 14]PIE: Warning: AttachTo: '/Game/SM_seabed2.SM_seabed2:PersistentLevel.FbxScene_seabed_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_seabed"), cannot attach '/Game/SM_seabed2.SM_seabed2:PersistentLevel.FbxScene_seabed_C_0.Wall3' which is static to it. Aborting.
+[2025.06.17-21.14.45:285][ 14]PIE: Warning: AttachTo: '/Game/SM_seabed2.SM_seabed2:PersistentLevel.FbxScene_seabed_C_0.DefaultSceneRoot' is not static  (in blueprint "FbxScene_seabed"), cannot attach '/Game/SM_seabed2.SM_seabed2:PersistentLevel.FbxScene_seabed_C_0.Wall4' which is static to it. Aborting.
+[2025.06.17-21.14.45:298][ 14]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2025.06.17-21.14.45:316][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2025.06.17-21.14.45:320][ 14]Cmd: MAP CHECKDEP NOCLEARLOG
+[2025.06.17-21.14.45:320][ 14]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.051ms to complete.
+[2025.06.17-21.14.45:321][ 14]LogSlate: Window 'Open Level' being destroyed
+[2025.06.17-21.15.01:980][994]LogMaterial: Display: Material /Game/Material_001.Material_001 needed to have new flag set bUsedWithNanite !
+[2025.06.17-21.15.01:988][994]LogStaticMesh: Warning: Invalid material [Material_001] used on Nanite static mesh [seabed]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.06.17-21.15.01:988][994]LogStaticMesh: Warning: Invalid material [Material_001] used on Nanite static mesh [seabed]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.06.17-21.15.01:988][994]LogStaticMesh: Warning: Invalid material [Material_001] used on Nanite static mesh [seabed]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.06.17-21.15.01:988][994]LogStaticMesh: Warning: Invalid material [Material_001] used on Nanite static mesh [seabed]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.06.17-21.15.01:988][994]LogStaticMesh: Warning: Invalid material [Material_001] used on Nanite static mesh [seabed]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.06.17-21.15.09:075][399]LogStaticMesh: Warning: Invalid material [Material_001] used on Nanite static mesh [seabed]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.06.17-21.15.09:075][399]LogStaticMesh: Warning: Invalid material [Material_001] used on Nanite static mesh [seabed]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.06.17-21.15.09:075][399]LogStaticMesh: Warning: Invalid material [Material_001] used on Nanite static mesh [seabed]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.06.17-21.15.09:075][399]LogStaticMesh: Warning: Invalid material [Material_001] used on Nanite static mesh [seabed]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.06.17-21.15.09:075][399]LogStaticMesh: Warning: Invalid material [Material_001] used on Nanite static mesh [seabed]. Only opaque or masked blend modes are currently supported, [BLEND_Translucent] blend mode was specified. (NOTE: "Disallow Nanite" on static mesh components can be used to suppress this warning and forcibly render the object as non-Nanite.)
+[2025.06.17-21.15.14:626][720]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2025.06.17-21.15.18:208][720]LogSlate: Window 'Save Content' being destroyed
+[2025.06.17-21.15.18:246][720]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.06.17-21.15.18:319][720]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Material_001] ([1] browsable assets)...
+[2025.06.17-21.15.18:319][720]OBJ SavePackage: Finished generating thumbnails for package [/Game/Material_001]
+[2025.06.17-21.15.18:319][720]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Material_001" FILE="../../../../../../Programming/Competitions/MATLAB/Underwater-Drone/Simulation/Environment/unreal_seabed/Content/Material_001.uasset" SILENT=true
+[2025.06.17-21.15.18:328][720]LogSavePackage: Moving output files for package: /Game/Material_001
+[2025.06.17-21.15.18:329][720]LogSavePackage: Moving '../../../../../../Programming/Competitions/MATLAB/Underwater-Drone/Simulation/Environment/unreal_seabed/Saved/Material_001F3323FE44ED13B881CC0F7BAE7F18786.tmp' to '../../../../../../Programming/Competitions/MATLAB/Underwater-Drone/Simulation/Environment/unreal_seabed/Content/Material_001.uasset'
+[2025.06.17-21.15.18:343][720]LogFileHelpers: InternalPromptForCheckoutAndSave took 96.456 ms
+[2025.06.17-21.15.18:402][720]LogContentValidation: Display: Starting to validate 1 assets
+[2025.06.17-21.15.18:402][720]LogContentValidation: Enabled validators:
+[2025.06.17-21.15.18:402][720]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.06.17-21.15.18:402][720]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.06.17-21.15.18:402][720]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.06.17-21.15.18:402][720]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.06.17-21.15.18:402][720]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.06.17-21.15.18:402][720]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.06.17-21.15.18:403][720]AssetCheck: /Game/Material_001 Validating asset
+[2025.06.17-21.15.44:338][ 41]LogShaderCompilers: Display: ================================================
+[2025.06.17-21.15.44:338][ 41]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.06.17-21.15.44:338][ 41]LogShaderCompilers: Display: Total job queries 300, among them cache hits 23 (7.67%), DDC hits 216 (72.00%), Duplicates 21 (7.00%)
+[2025.06.17-21.15.44:338][ 41]LogShaderCompilers: Display: Tracking 256 distinct input hashes that result in 228 distinct outputs (89.06%)
+[2025.06.17-21.15.44:338][ 41]LogShaderCompilers: Display: RAM used: 152.95 KiB of 819.20 MiB budget. Usage: 0.02%
+[2025.06.17-21.15.44:338][ 41]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.06.17-21.15.44:338][ 41]LogShaderCompilers: Display: Shaders Compiled: 40
+[2025.06.17-21.15.44:338][ 41]LogShaderCompilers: Display: Jobs assigned 40, completed 40 (100%)
+[2025.06.17-21.15.44:338][ 41]LogShaderCompilers: Display: Average time worker was idle: 183.24 s
+[2025.06.17-21.15.44:338][ 41]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.09 s
+[2025.06.17-21.15.44:338][ 41]LogShaderCompilers: Display: Job execution time: average 4.21 s, max 6.97 s
+[2025.06.17-21.15.44:338][ 41]LogShaderCompilers: Display: Job life time (pending + execution): average 4.26 s, max 7.05
+[2025.06.17-21.15.44:338][ 41]LogShaderCompilers: Display: Shader code size: average 13.307 KiB, min 2.297 KiB, max 30.434 KiB
+[2025.06.17-21.15.44:339][ 41]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 11.31 s
+[2025.06.17-21.15.44:339][ 41]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2025.06.17-21.15.44:339][ 41]LogShaderCompilers: Display: Jobs were issued in 20 batches (only local compilation was used), average 2.00 jobs/batch
+[2025.06.17-21.15.44:339][ 41]LogShaderCompilers: Display: Average processing rate: 3.54 jobs/sec
+[2025.06.17-21.15.44:339][ 41]LogShaderCompilers: Display: Total thread time: 38.689 s
+[2025.06.17-21.15.44:339][ 41]LogShaderCompilers: Display: Total thread preprocess time: 6.524 s
+[2025.06.17-21.15.44:339][ 41]LogShaderCompilers: Display: Percentage time preprocessing: 16.86%
+[2025.06.17-21.15.44:339][ 41]LogShaderCompilers: Display: Effective parallelization: 3.42 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2025.06.17-21.15.44:339][ 41]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.06.17-21.15.44:339][ 41]LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS (compiled    1 times, average 2.17 sec, max 2.17 sec, min 2.17 sec)
+[2025.06.17-21.15.44:339][ 41]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    1 times, average 1.92 sec, max 1.92 sec, min 1.92 sec)
+[2025.06.17-21.15.44:339][ 41]LogShaderCompilers: Display:             TBasePassPSFSelfShadowedVolumetricLightmapPolicy (compiled    1 times, average 1.89 sec, max 1.89 sec, min 1.89 sec)
+[2025.06.17-21.15.44:339][ 41]LogShaderCompilers: Display:           TBasePassPSFSelfShadowedTranslucencyPolicySkylight (compiled    1 times, average 1.89 sec, max 1.89 sec, min 1.89 sec)
+[2025.06.17-21.15.44:339][ 41]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    1 times, average 1.87 sec, max 1.87 sec, min 1.87 sec)
+[2025.06.17-21.15.44:339][ 41]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.06.17-21.15.44:339][ 41]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 8.78% of total time (compiled    4 times, average 0.85 sec, max 1.83 sec, min 0.50 sec)
+[2025.06.17-21.15.44:339][ 41]LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS - 5.61% of total time (compiled    1 times, average 2.17 sec, max 2.17 sec, min 2.17 sec)
+[2025.06.17-21.15.44:339][ 41]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 4.96% of total time (compiled    1 times, average 1.92 sec, max 1.92 sec, min 1.92 sec)
+[2025.06.17-21.15.44:339][ 41]LogShaderCompilers: Display:             TBasePassPSFSelfShadowedVolumetricLightmapPolicy - 4.89% of total time (compiled    1 times, average 1.89 sec, max 1.89 sec, min 1.89 sec)
+[2025.06.17-21.15.44:339][ 41]LogShaderCompilers: Display:           TBasePassPSFSelfShadowedTranslucencyPolicySkylight - 4.89% of total time (compiled    1 times, average 1.89 sec, max 1.89 sec, min 1.89 sec)
+[2025.06.17-21.15.44:339][ 41]LogShaderCompilers: Display: === Material stats ===
+[2025.06.17-21.15.44:339][ 41]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.06.17-21.15.44:339][ 41]LogShaderCompilers: Display: Materials Translated:    134
+[2025.06.17-21.15.44:339][ 41]LogShaderCompilers: Display: Material Total Translate Time: 0.14 s
+[2025.06.17-21.15.44:340][ 41]LogShaderCompilers: Display: Material Translation Only: 0.04 s (26%)
+[2025.06.17-21.15.44:340][ 41]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.06.17-21.15.44:340][ 41]LogShaderCompilers: Display: Material Cache Hits: 12 (9%)
+[2025.06.17-21.15.44:340][ 41]LogShaderCompilers: Display: ================================================
