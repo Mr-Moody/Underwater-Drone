@@ -10,7 +10,11 @@
 				"/Users/tarak/Documents/GitHub/Underwater-Drone/Simulation/Environment/unreal_seabed/Content/seabed.uasset",
 				"/Users/tarak/Documents/GitHub/Underwater-Drone/Simulation/Environment/unreal_seabed/Content/SM_seabed_BuiltData.uasset",
 				"/Users/Shared/Epic Games/UE_5.5/Engine/Content/OpenWorldTemplate/LandscapeMaterial/M_ProcGrid.uasset",
-				"/Users/Shared/Epic Games/UE_5.5/Engine/Content/OpenWorldTemplate/LandscapeMaterial/MI_ProcGrid.uasset"
+				"/Users/Shared/Epic Games/UE_5.5/Engine/Content/OpenWorldTemplate/LandscapeMaterial/MI_ProcGrid.uasset",
+				"/Users/tarak/Documents/GitHub/Underwater-Drone/Simulation/Environment/unreal_seabed/Content/SimBlank/Levels/FbxScene_seabed.uasset",
+				"/Users/tarak/Documents/GitHub/Underwater-Drone/Simulation/Environment/unreal_seabed/Content/SM_seabed2.umap",
+				"/Users/Shared/Epic Games/UE_5.5/Engine/Content/TemplateResources/NewMaterial.uasset",
+				"/Users/Shared/Epic Games/UE_5.5/Engine/Content/TemplateResources/M_darkgreen.uasset"
 			]
 		}
 	]
