@@ -3,7 +3,6 @@ c2_model.obj
 model_sfun_registry.obj
 c_mexapi_version.obj
 half_type.obj
-"C:\Program Files\MATLAB\R2024b\extern\lib\win64\microsoft\libmwComputeMetric.lib"
 "C:\Program Files\MATLAB\R2024b\extern\lib\win64\microsoft\libmwkdtree.lib"
 
 "C:\Program Files\MATLAB\R2024b\extern\lib\win64\microsoft\sf_runtime.lib"

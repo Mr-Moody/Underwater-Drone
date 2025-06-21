@@ -30,7 +30,6 @@
 #define rtIsInf(X)                     ((int)mxIsInf(X))
 
 /* Auxiliary Header Files */
-#include "cvstCG_ComputeMetric.h"
 #include "cvstCG_kdtree.h"
 
 /* Forward Declarations */
