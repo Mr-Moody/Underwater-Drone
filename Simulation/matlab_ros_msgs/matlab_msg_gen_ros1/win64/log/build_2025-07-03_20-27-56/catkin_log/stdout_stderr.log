@@ -1,0 +1,177 @@
+**********************************************************************
+** Visual Studio 2022 Developer Command Prompt v17.14.6
+** Copyright (c) 2025 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x86_x64'
+-- The C compiler identification is MSVC 19.36.32548.0
+-- The CXX compiler identification is MSVC 19.36.32548.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/Hostx86/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/Hostx86/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: C:/Programming/Competitions/MATLAB/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/devel
+-- Using CMAKE_PREFIX_PATH: C:\Program Files\MATLAB\R2024b\sys\ros1\win64\ros1;C:/Program Files/MATLAB/R2024b/toolbox/ros/mlroscpp/custom_messages
+-- This workspace overlays: C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1;C:/Program Files/MATLAB/R2024b/toolbox/ros/mlroscpp/custom_messages
+-- Found PythonInterp: C:/msys64/mingw64/bin/python3.exe (found suitable version "3.12.7", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: C:/msys64/mingw64/bin/python3.exe
+-- Using default Python package layout
+-- Found PY_em: C:\Users\tmood\AppData\Roaming\MATHWO~1\MATLAB\R2024b\ros1\win64\venv\lib\site-packages\em.py  
+-- Using empy: C:/Users/tmood/AppData/Roaming/MATHWO~1/MATLAB/R2024b/ros1/win64/venv/lib/site-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: off
+-- catkin 0.8.10
+-- BUILD_SHARED_LIBS is on
+The system cannot find the batch label specified - GenerateTempFilename
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 1 packages in topological order:
+-- ~~  - uuv_gazebo_ros_plugins_msgs
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'uuv_gazebo_ros_plugins_msgs'
+-- ==> add_subdirectory(uuv_gazebo_ros_plugins_msgs)
+CMake Warning at C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/genmsg-extras.cmake:49 (message):
+  Unknown message generator specified in ROS_LANG_DISABLE: geneus
+Call Stack (most recent call first):
+  C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/genmsgConfig.cmake:222 (include)
+  C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/gencpp/cmake/gencppConfig.cmake:197 (find_package)
+  C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/message_generation/cmake/message_generationConfig.cmake:197 (find_package)
+  C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  uuv_gazebo_ros_plugins_msgs/CMakeLists.txt:24 (find_package)
+
+
+CMake Warning at C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/genmsg-extras.cmake:49 (message):
+  Unknown message generator specified in ROS_LANG_DISABLE: genlisp
+Call Stack (most recent call first):
+  C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/genmsgConfig.cmake:222 (include)
+  C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/gencpp/cmake/gencppConfig.cmake:197 (find_package)
+  C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/message_generation/cmake/message_generationConfig.cmake:197 (find_package)
+  C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  uuv_gazebo_ros_plugins_msgs/CMakeLists.txt:24 (find_package)
+
+
+CMake Warning at C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/genmsg-extras.cmake:49 (message):
+  Unknown message generator specified in ROS_LANG_DISABLE: gennodejs
+Call Stack (most recent call first):
+  C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/genmsgConfig.cmake:222 (include)
+  C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/gencpp/cmake/gencppConfig.cmake:197 (find_package)
+  C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/message_generation/cmake/message_generationConfig.cmake:197 (find_package)
+  C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  uuv_gazebo_ros_plugins_msgs/CMakeLists.txt:24 (find_package)
+
+
+-- Using these message generators: gencpp;genpy
+-- uuv_gazebo_ros_plugins_msgs: 3 messages, 10 services
+-- Configuring done
+CMake Warning in uuv_gazebo_ros_plugins_msgs/CMakeLists.txt:
+  The object file directory
+
+    C:/Programming/Competitions/MATLAB/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/build/uuv_gazebo_ros_plugins_msgs/CMakeFiles/uuv_gazebo_ros_plugins_msgs_matlab.dir/./
+
+  has 191 characters.  The maximum full path to an object file is 250
+  characters (see CMAKE_OBJECT_PATH_MAX).  Object file
+
+    src/uuv_gazebo_ros_plugins_msgs_GetThrusterConversionFcn_service.cpp.obj
+
+  cannot be safely placed under this directory.  The build may not work
+  correctly.
+
+
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    Boost_NAMESPACE
+
+
+-- Build files have been written to: C:/Programming/Competitions/MATLAB/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/build
+[1/58] cmd.exe /C "cd /D C:\Programming\Competitions\MATLAB\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\uuv_gazebo_ros_plugins_msgs && C:\Programming\Competitions\MATLAB\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\catkin_generated\env_cached.bat C:/msys64/mingw64/bin/python3.exe "C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py" uuv_gazebo_ros_plugins_msgs C:/Programming/Competitions/MATLAB/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/src/uuv_gazebo_ros_plugins_msgs/msg/FloatStamped.msg std_msgs/Header"
+[2/58] cmd.exe /C "cd /D C:\Programming\Competitions\MATLAB\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\uuv_gazebo_ros_plugins_msgs && C:\Programming\Competitions\MATLAB\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\catkin_generated\env_cached.bat C:/msys64/mingw64/bin/python3.exe "C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py" uuv_gazebo_ros_plugins_msgs C:/Programming/Competitions/MATLAB/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/src/uuv_gazebo_ros_plugins_msgs/msg/ThrusterConversionFcn.msg "
+[3/58] cmd.exe /C "cd /D C:\Programming\Competitions\MATLAB\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\uuv_gazebo_ros_plugins_msgs && C:\Programming\Competitions\MATLAB\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\catkin_generated\env_cached.bat C:/msys64/mingw64/bin/python3.exe "C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py" uuv_gazebo_ros_plugins_msgs C:/Programming/Competitions/MATLAB/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/src/uuv_gazebo_ros_plugins_msgs/srv/GetFloat.srv "
+[4/58] cmd.exe /C "cd /D C:\Programming\Competitions\MATLAB\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\uuv_gazebo_ros_plugins_msgs && C:\Programming\Competitions\MATLAB\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\catkin_generated\env_cached.bat C:/msys64/mingw64/bin/python3.exe "C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py" uuv_gazebo_ros_plugins_msgs C:/Programming/Competitions/MATLAB/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/src/uuv_gazebo_ros_plugins_msgs/msg/UnderwaterObjectModel.msg geometry_msgs/Vector3:geometry_msgs/Inertia"
+[5/58] cmd.exe /C "cd /D C:\Programming\Competitions\MATLAB\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\uuv_gazebo_ros_plugins_msgs && C:\Programming\Competitions\MATLAB\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\catkin_generated\env_cached.bat C:/msys64/mingw64/bin/python3.exe "C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py" uuv_gazebo_ros_plugins_msgs C:/Programming/Competitions/MATLAB/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/src/uuv_gazebo_ros_plugins_msgs/srv/GetListParam.srv "
+[6/58] cmd.exe /C "cd /D C:\Programming\Competitions\MATLAB\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\uuv_gazebo_ros_plugins_msgs && C:\Programming\Competitions\MATLAB\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\catkin_generated\env_cached.bat C:/msys64/mingw64/bin/python3.exe "C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py" uuv_gazebo_ros_plugins_msgs C:/Programming/Competitions/MATLAB/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/src/uuv_gazebo_ros_plugins_msgs/srv/GetModelProperties.srv geometry_msgs/Inertia:geometry_msgs/Vector3:uuv_gazebo_ros_plugins_msgs/UnderwaterObjectModel"
+[7/58] cmd.exe /C "cd /D C:\Programming\Competitions\MATLAB\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\uuv_gazebo_ros_plugins_msgs && C:\Programming\Competitions\MATLAB\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\catkin_generated\env_cached.bat C:/msys64/mingw64/bin/python3.exe "C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py" uuv_gazebo_ros_plugins_msgs C:/Programming/Competitions/MATLAB/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/src/uuv_gazebo_ros_plugins_msgs/srv/GetThrusterConversionFcn.srv uuv_gazebo_ros_plugins_msgs/ThrusterConversionFcn"
+[8/58] cmd.exe /C "cd /D C:\Programming\Competitions\MATLAB\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\uuv_gazebo_ros_plugins_msgs && C:\Programming\Competitions\MATLAB\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\catkin_generated\env_cached.bat C:/msys64/mingw64/bin/python3.exe "C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py" uuv_gazebo_ros_plugins_msgs C:/Programming/Competitions/MATLAB/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/src/uuv_gazebo_ros_plugins_msgs/srv/SetFloat.srv "
+[9/58] cmd.exe /C "cd /D C:\Programming\Competitions\MATLAB\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\uuv_gazebo_ros_plugins_msgs && C:\Programming\Competitions\MATLAB\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\catkin_generated\env_cached.bat C:/msys64/mingw64/bin/python3.exe "C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py" uuv_gazebo_ros_plugins_msgs C:/Programming/Competitions/MATLAB/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/src/uuv_gazebo_ros_plugins_msgs/srv/SetUseGlobalCurrentVel.srv "
+[10/58] cmd.exe /C "cd /D C:\Programming\Competitions\MATLAB\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\uuv_gazebo_ros_plugins_msgs && C:\Programming\Competitions\MATLAB\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\catkin_generated\env_cached.bat C:/msys64/mingw64/bin/python3.exe "C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py" uuv_gazebo_ros_plugins_msgs C:/Programming/Competitions/MATLAB/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/src/uuv_gazebo_ros_plugins_msgs/srv/SetThrusterEfficiency.srv "
+[11/58] cmd.exe /C "cd /D C:\Programming\Competitions\MATLAB\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\uuv_gazebo_ros_plugins_msgs && C:\Programming\Competitions\MATLAB\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\catkin_generated\env_cached.bat C:/msys64/mingw64/bin/python3.exe "C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py" uuv_gazebo_ros_plugins_msgs C:/Programming/Competitions/MATLAB/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/src/uuv_gazebo_ros_plugins_msgs/srv/GetThrusterEfficiency.srv "
+[12/58] cmd.exe /C "cd /D C:\Programming\Competitions\MATLAB\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\uuv_gazebo_ros_plugins_msgs && C:\Programming\Competitions\MATLAB\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\catkin_generated\env_cached.bat C:/msys64/mingw64/bin/python3.exe "C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py" uuv_gazebo_ros_plugins_msgs C:/Programming/Competitions/MATLAB/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/src/uuv_gazebo_ros_plugins_msgs/srv/SetThrusterState.srv "
+[13/58] cmd.exe /C "cd /D C:\Programming\Competitions\MATLAB\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\uuv_gazebo_ros_plugins_msgs && C:\Programming\Competitions\MATLAB\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\catkin_generated\env_cached.bat C:/msys64/mingw64/bin/python3.exe "C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py" uuv_gazebo_ros_plugins_msgs C:/Programming/Competitions/MATLAB/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/src/uuv_gazebo_ros_plugins_msgs/srv/GetThrusterState.srv "
+[14/58] Generating C++ code from uuv_gazebo_ros_plugins_msgs/UnderwaterObjectModel.msg
+[15/58] Generating C++ code from uuv_gazebo_ros_plugins_msgs/ThrusterConversionFcn.msg
+[16/58] Generating C++ code from uuv_gazebo_ros_plugins_msgs/FloatStamped.msg
+[17/58] Generating C++ code from uuv_gazebo_ros_plugins_msgs/SetThrusterEfficiency.srv
+[18/58] Generating C++ code from uuv_gazebo_ros_plugins_msgs/SetThrusterState.srv
+[19/58] Generating C++ code from uuv_gazebo_ros_plugins_msgs/GetThrusterConversionFcn.srv
+[20/58] Generating C++ code from uuv_gazebo_ros_plugins_msgs/GetModelProperties.srv
+[21/58] Generating C++ code from uuv_gazebo_ros_plugins_msgs/GetListParam.srv
+[22/58] Generating C++ code from uuv_gazebo_ros_plugins_msgs/GetFloat.srv
+[23/58] Generating C++ code from uuv_gazebo_ros_plugins_msgs/GetThrusterEfficiency.srv
+[24/58] Generating C++ code from uuv_gazebo_ros_plugins_msgs/SetUseGlobalCurrentVel.srv
+[25/58] Generating C++ code from uuv_gazebo_ros_plugins_msgs/GetThrusterState.srv
+[26/58] Generating C++ code from uuv_gazebo_ros_plugins_msgs/SetFloat.srv
+[27/58] Generating Python from MSG uuv_gazebo_ros_plugins_msgs/UnderwaterObjectModel
+[28/58] Generating Python code from SRV uuv_gazebo_ros_plugins_msgs/SetUseGlobalCurrentVel
+[29/58] Generating Python from MSG uuv_gazebo_ros_plugins_msgs/ThrusterConversionFcn
+[30/58] Generating Python from MSG uuv_gazebo_ros_plugins_msgs/FloatStamped
+[31/58] Generating Python code from SRV uuv_gazebo_ros_plugins_msgs/GetListParam
+[32/58] Generating Python code from SRV uuv_gazebo_ros_plugins_msgs/GetFloat
+[33/58] Generating Python code from SRV uuv_gazebo_ros_plugins_msgs/SetThrusterState
+[34/58] Generating Python code from SRV uuv_gazebo_ros_plugins_msgs/GetThrusterConversionFcn
+[35/58] Generating Python code from SRV uuv_gazebo_ros_plugins_msgs/GetModelProperties
+[36/58] Generating Python code from SRV uuv_gazebo_ros_plugins_msgs/GetThrusterEfficiency
+[37/58] Generating Python code from SRV uuv_gazebo_ros_plugins_msgs/SetThrusterEfficiency
+[38/58] Generating Python code from SRV uuv_gazebo_ros_plugins_msgs/SetFloat
+[39/58] Generating Python code from SRV uuv_gazebo_ros_plugins_msgs/GetThrusterState
+[40/58] Generating Python msg __init__.py for uuv_gazebo_ros_plugins_msgs
+[41/58] Generating Python srv __init__.py for uuv_gazebo_ros_plugins_msgs
+[42/58] Building CXX object CMakeFiles\Project__setup_util.py_exec_install_python.dir\f81e684fb9e4ff71439b2914814ce514\_setup_util.cpp.obj
+[43/58] Linking CXX executable catkin_generated\windows_wrappers\Project__setup_util.py_exec_install_python\_setup_util.exe
+[44/58] Building CXX object uuv_gazebo_ros_plugins_msgs\CMakeFiles\uuv_gazebo_ros_plugins_msgs_matlab.dir\src\uuv_gazebo_ros_plugins_msgs_FloatStamped_message.cpp.obj
+C:\Program Files\MATLAB\R2024b\sys\ros1\win64\ros1\boost\include\boost-1_81\boost/bind.hpp(77): note: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+[45/58] Building CXX object uuv_gazebo_ros_plugins_msgs\CMakeFiles\uuv_gazebo_ros_plugins_msgs_matlab.dir\src\uuv_gazebo_ros_plugins_msgs_GetThrusterConversionFcn_service.cpp.obj
+FAILED: uuv_gazebo_ros_plugins_msgs/CMakeFiles/uuv_gazebo_ros_plugins_msgs_matlab.dir/src/uuv_gazebo_ros_plugins_msgs_GetThrusterConversionFcn_service.cpp.obj 
+C:\PROGRA~1\MIB055~1\2022\COMMUN~1\VC\Tools\MSVC\1436~1.325\bin\Hostx86\x64\cl.exe  /nologo /TP -DBOOST_ALL_DYN_LINK -DBOOST_ALL_NO_LIB -DNOMINMAX -DNO_STRICT -DQ_NOWINSTRICT -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"uuv_gazebo_ros_plugins_msgs\" -DUUV_GAZEBO_ROS_PLUGINS_MSGS_BUILDING_LIBRARY -DWIN32_LEAN_AND_MEAN -D_USE_MATH_DEFINES -Dclass_loader=ros1_class_loader -Duuv_gazebo_ros_plugins_msgs_matlab_EXPORTS -IC:\Programming\Competitions\MATLAB\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\devel\include -IC:\Programming\Competitions\MATLAB\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\src\uuv_gazebo_ros_plugins_msgs\include -IC:\Programming\Competitions\MATLAB\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\src\uuv_gazebo_ros_plugins_msgs -I"C:\Program Files\MATLAB\R2024b\sys\ros1\win64\ros1\include" -I"C:\Program Files\MATLAB\R2024b\sys\ros1\win64\ros1\boost\include\boost-1_81" -I"C:\Program Files\MATLAB\R2024b\sys\ros1\win64\ros1\console_bridge\include" -I"C:\Program Files\MATLAB\R2024b\sys\ros1\win64\ros1\share\xmlrpcpp\cmake\..\..\..\include\xmlrpcpp" -I"C:\Program Files\MATLAB\R2024b\extern\include" -I"C:\Program Files\MATLAB\R2024b\extern\include\MatlabDataArray" -I"C:\Program Files\MATLAB\R2024b\toolbox\ros\include\ros1" -I"C:\Program Files\MATLAB\R2024b\sys\ros1\win64\ros1\include\class_loader" -I"C:\Program Files\MATLAB\R2024b\toolbox\ros\mlroscpp\custom_messages\include" -I"C:\Program Files\MATLAB\R2024b\sys\ros1\win64\ros1\bzip2\include" -I"C:\Program Files\MATLAB\R2024b\sys\ros1\win64\ros1\lz4\include" -IC:\Programming\Competitions\MATLAB\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\src\uuv_gazebo_ros_plugins_msgs\include\uuv_gazebo_ros_plugins_msgs /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Od /Ob2 /DNDEBUG /Zc:__cplusplus -std:c++14 /showIncludes /Fouuv_gazebo_ros_plugins_msgs\CMakeFiles\uuv_gazebo_ros_plugins_msgs_matlab.dir\src\uuv_gazebo_ros_plugins_msgs_GetThrusterConversionFcn_service.cpp.obj /Fduuv_gazebo_ros_plugins_msgs\CMakeFiles\uuv_gazebo_ros_plugins_msgs_matlab.dir\ /FS -c C:\Programming\Competitions\MATLAB\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\src\uuv_gazebo_ros_plugins_msgs\src\uuv_gazebo_ros_plugins_msgs_GetThrusterConversionFcn_service.cpp
+C:\Program Files\MATLAB\R2024b\sys\ros1\win64\ros1\boost\include\boost-1_81\boost/bind.hpp(77): note: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+C:\Programming\Competitions\MATLAB\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\src\uuv_gazebo_ros_plugins_msgs\src\uuv_gazebo_ros_plugins_msgs_GetThrusterConversionFcn_service.cpp : fatal error C1083: Cannot open compiler generated file: '': Invalid argument
+[46/58] Building CXX object uuv_gazebo_ros_plugins_msgs\CMakeFiles\uuv_gazebo_ros_plugins_msgs_matlab.dir\src\uuv_gazebo_ros_plugins_msgs_ThrusterConversionFcn_message.cpp.obj
+C:\Program Files\MATLAB\R2024b\sys\ros1\win64\ros1\boost\include\boost-1_81\boost/bind.hpp(77): note: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+[47/58] Building CXX object uuv_gazebo_ros_plugins_msgs\CMakeFiles\uuv_gazebo_ros_plugins_msgs_matlab.dir\src\uuv_gazebo_ros_plugins_msgs_SetThrusterEfficiency_service.cpp.obj
+C:\Program Files\MATLAB\R2024b\sys\ros1\win64\ros1\boost\include\boost-1_81\boost/bind.hpp(77): note: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+[48/58] Building CXX object uuv_gazebo_ros_plugins_msgs\CMakeFiles\uuv_gazebo_ros_plugins_msgs_matlab.dir\src\uuv_gazebo_ros_plugins_msgs_SetUseGlobalCurrentVel_service.cpp.obj
+C:\Program Files\MATLAB\R2024b\sys\ros1\win64\ros1\boost\include\boost-1_81\boost/bind.hpp(77): note: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+[49/58] Building CXX object uuv_gazebo_ros_plugins_msgs\CMakeFiles\uuv_gazebo_ros_plugins_msgs_matlab.dir\src\uuv_gazebo_ros_plugins_msgs_GetFloat_service.cpp.obj
+C:\Program Files\MATLAB\R2024b\sys\ros1\win64\ros1\boost\include\boost-1_81\boost/bind.hpp(77): note: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+[50/58] Building CXX object uuv_gazebo_ros_plugins_msgs\CMakeFiles\uuv_gazebo_ros_plugins_msgs_matlab.dir\src\uuv_gazebo_ros_plugins_msgs_GetThrusterEfficiency_service.cpp.obj
+C:\Program Files\MATLAB\R2024b\sys\ros1\win64\ros1\boost\include\boost-1_81\boost/bind.hpp(77): note: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+[51/58] Building CXX object uuv_gazebo_ros_plugins_msgs\CMakeFiles\uuv_gazebo_ros_plugins_msgs_matlab.dir\src\uuv_gazebo_ros_plugins_msgs_UnderwaterObjectModel_message.cpp.obj
+C:\Program Files\MATLAB\R2024b\sys\ros1\win64\ros1\boost\include\boost-1_81\boost/bind.hpp(77): note: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+[52/58] Building CXX object uuv_gazebo_ros_plugins_msgs\CMakeFiles\uuv_gazebo_ros_plugins_msgs_matlab.dir\src\uuv_gazebo_ros_plugins_msgs_GetThrusterState_service.cpp.obj
+C:\Program Files\MATLAB\R2024b\sys\ros1\win64\ros1\boost\include\boost-1_81\boost/bind.hpp(77): note: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+[53/58] Building CXX object uuv_gazebo_ros_plugins_msgs\CMakeFiles\uuv_gazebo_ros_plugins_msgs_matlab.dir\src\uuv_gazebo_ros_plugins_msgs_SetThrusterState_service.cpp.obj
+C:\Program Files\MATLAB\R2024b\sys\ros1\win64\ros1\boost\include\boost-1_81\boost/bind.hpp(77): note: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+[54/58] Building CXX object uuv_gazebo_ros_plugins_msgs\CMakeFiles\uuv_gazebo_ros_plugins_msgs_matlab.dir\src\uuv_gazebo_ros_plugins_msgs_GetListParam_service.cpp.obj
+C:\Program Files\MATLAB\R2024b\sys\ros1\win64\ros1\boost\include\boost-1_81\boost/bind.hpp(77): note: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+[55/58] Building CXX object uuv_gazebo_ros_plugins_msgs\CMakeFiles\uuv_gazebo_ros_plugins_msgs_matlab.dir\src\uuv_gazebo_ros_plugins_msgs_SetFloat_service.cpp.obj
+C:\Program Files\MATLAB\R2024b\sys\ros1\win64\ros1\boost\include\boost-1_81\boost/bind.hpp(77): note: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+[56/58] Building CXX object uuv_gazebo_ros_plugins_msgs\CMakeFiles\uuv_gazebo_ros_plugins_msgs_matlab.dir\src\uuv_gazebo_ros_plugins_msgs_GetModelProperties_service.cpp.obj
+C:\Program Files\MATLAB\R2024b\sys\ros1\win64\ros1\boost\include\boost-1_81\boost/bind.hpp(77): note: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+ninja: build stopped: subcommand failed.
+Base path: C:\Programming\Competitions\MATLAB\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64
+Source space: C:\Programming\Competitions\MATLAB\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\src
+Build space: C:\Programming\Competitions\MATLAB\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build
+Devel space: C:\Programming\Competitions\MATLAB\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\devel
+Install space: C:\Programming\Competitions\MATLAB\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\install
+Creating symlink "C:\Programming\Competitions\MATLAB\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\src\CMakeLists.txt" pointing to "C:\PROGRA~1\MATLAB\R2024b\sys\ros1\win64\ros1\share\catkin\cmake\toplevel.cmake"
+####
+#### Running command: "cmake C:\Programming\Competitions\MATLAB\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\src -DALIAS_ROS1_CLASS_LOADER=1 -DBoost_NAMESPACE=mwboost -DCATKIN_ENABLE_TESTING=off -DCMAKE_PREFIX_PATH=C:\Program Files\MATLAB\R2024b\sys\ros1\win64\ros1;C:/Program Files/MATLAB/R2024b/toolbox/ros/mlroscpp/custom_messages -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS_RELEASE=/MD /Od /Ob2 /DNDEBUG -DCATKIN_DEVEL_PREFIX=C:\Programming\Competitions\MATLAB\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\devel -DCMAKE_INSTALL_PREFIX=C:\Programming\Competitions\MATLAB\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\install -G Ninja" in "C:\Programming\Competitions\MATLAB\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build"
+####
+####
+#### Running command: "ninja install install -j16 -l16" in "C:\Programming\Competitions\MATLAB\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build"
+####
+Invoking "ninja install install -j16 -l16" failed

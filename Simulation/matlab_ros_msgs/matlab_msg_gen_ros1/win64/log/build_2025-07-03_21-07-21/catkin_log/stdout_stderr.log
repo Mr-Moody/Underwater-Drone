@@ -1,0 +1,335 @@
+**********************************************************************
+** Visual Studio 2022 Developer Command Prompt v17.14.6
+** Copyright (c) 2025 Microsoft Corporation
+**********************************************************************
+[vcvarsall.bat] Environment initialized for: 'x86_x64'
+-- The C compiler identification is MSVC 19.36.32548.0
+-- The CXX compiler identification is MSVC 19.36.32548.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/Hostx86/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/Hostx86/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/devel
+-- Using CMAKE_PREFIX_PATH: C:\Program Files\MATLAB\R2024b\sys\ros1\win64\ros1;C:/Program Files/MATLAB/R2024b/toolbox/ros/mlroscpp/custom_messages
+-- This workspace overlays: C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1;C:/Program Files/MATLAB/R2024b/toolbox/ros/mlroscpp/custom_messages
+-- Found PythonInterp: C:/msys64/mingw64/bin/python3.exe (found suitable version "3.12.7", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: C:/msys64/mingw64/bin/python3.exe
+-- Using default Python package layout
+-- Found PY_em: C:\Users\tmood\AppData\Roaming\MATHWO~1\MATLAB\R2024b\ros1\win64\venv\lib\site-packages\em.py  
+-- Using empy: C:/Users/tmood/AppData/Roaming/MATHWO~1/MATLAB/R2024b/ros1/win64/venv/lib/site-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: off
+-- catkin 0.8.10
+-- BUILD_SHARED_LIBS is on
+The system cannot find the batch label specified - GenerateTempFilename
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 1 packages in topological order:
+-- ~~  - uuv_gazebo_ros_plugins_msgs
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'uuv_gazebo_ros_plugins_msgs'
+-- ==> add_subdirectory(uuv_gazebo_ros_plugins_msgs)
+CMake Warning at C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/genmsg-extras.cmake:49 (message):
+  Unknown message generator specified in ROS_LANG_DISABLE: geneus
+Call Stack (most recent call first):
+  C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/genmsgConfig.cmake:222 (include)
+  C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/gencpp/cmake/gencppConfig.cmake:197 (find_package)
+  C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/message_generation/cmake/message_generationConfig.cmake:197 (find_package)
+  C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  uuv_gazebo_ros_plugins_msgs/CMakeLists.txt:24 (find_package)
+
+
+CMake Warning at C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/genmsg-extras.cmake:49 (message):
+  Unknown message generator specified in ROS_LANG_DISABLE: genlisp
+Call Stack (most recent call first):
+  C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/genmsgConfig.cmake:222 (include)
+  C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/gencpp/cmake/gencppConfig.cmake:197 (find_package)
+  C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/message_generation/cmake/message_generationConfig.cmake:197 (find_package)
+  C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  uuv_gazebo_ros_plugins_msgs/CMakeLists.txt:24 (find_package)
+
+
+CMake Warning at C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/genmsg-extras.cmake:49 (message):
+  Unknown message generator specified in ROS_LANG_DISABLE: gennodejs
+Call Stack (most recent call first):
+  C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/genmsgConfig.cmake:222 (include)
+  C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/gencpp/cmake/gencppConfig.cmake:197 (find_package)
+  C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/message_generation/cmake/message_generationConfig.cmake:197 (find_package)
+  C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  uuv_gazebo_ros_plugins_msgs/CMakeLists.txt:24 (find_package)
+
+
+-- Using these message generators: gencpp;genpy
+-- uuv_gazebo_ros_plugins_msgs: 3 messages, 10 services
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    Boost_NAMESPACE
+
+
+-- Build files have been written to: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/build
+[1/58] cmd.exe /C "cd /D C:\AUVSimulation\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\uuv_gazebo_ros_plugins_msgs && C:\AUVSimulation\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\catkin_generated\env_cached.bat C:/msys64/mingw64/bin/python3.exe "C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py" uuv_gazebo_ros_plugins_msgs C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/src/uuv_gazebo_ros_plugins_msgs/srv/GetThrusterState.srv "
+[2/58] cmd.exe /C "cd /D C:\AUVSimulation\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\uuv_gazebo_ros_plugins_msgs && C:\AUVSimulation\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\catkin_generated\env_cached.bat C:/msys64/mingw64/bin/python3.exe "C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py" uuv_gazebo_ros_plugins_msgs C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/src/uuv_gazebo_ros_plugins_msgs/srv/SetFloat.srv "
+[3/58] cmd.exe /C "cd /D C:\AUVSimulation\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\uuv_gazebo_ros_plugins_msgs && C:\AUVSimulation\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\catkin_generated\env_cached.bat C:/msys64/mingw64/bin/python3.exe "C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py" uuv_gazebo_ros_plugins_msgs C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/src/uuv_gazebo_ros_plugins_msgs/srv/SetUseGlobalCurrentVel.srv "
+[4/58] cmd.exe /C "cd /D C:\AUVSimulation\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\uuv_gazebo_ros_plugins_msgs && C:\AUVSimulation\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\catkin_generated\env_cached.bat C:/msys64/mingw64/bin/python3.exe "C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py" uuv_gazebo_ros_plugins_msgs C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/src/uuv_gazebo_ros_plugins_msgs/srv/SetThrusterEfficiency.srv "
+[5/58] cmd.exe /C "cd /D C:\AUVSimulation\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\uuv_gazebo_ros_plugins_msgs && C:\AUVSimulation\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\catkin_generated\env_cached.bat C:/msys64/mingw64/bin/python3.exe "C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py" uuv_gazebo_ros_plugins_msgs C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/src/uuv_gazebo_ros_plugins_msgs/srv/SetThrusterState.srv "
+[6/58] cmd.exe /C "cd /D C:\AUVSimulation\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\uuv_gazebo_ros_plugins_msgs && C:\AUVSimulation\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\catkin_generated\env_cached.bat C:/msys64/mingw64/bin/python3.exe "C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py" uuv_gazebo_ros_plugins_msgs C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/src/uuv_gazebo_ros_plugins_msgs/srv/GetThrusterEfficiency.srv "
+[7/58] cmd.exe /C "cd /D C:\AUVSimulation\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\uuv_gazebo_ros_plugins_msgs && C:\AUVSimulation\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\catkin_generated\env_cached.bat C:/msys64/mingw64/bin/python3.exe "C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py" uuv_gazebo_ros_plugins_msgs C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/src/uuv_gazebo_ros_plugins_msgs/msg/UnderwaterObjectModel.msg geometry_msgs/Vector3:geometry_msgs/Inertia"
+[8/58] cmd.exe /C "cd /D C:\AUVSimulation\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\uuv_gazebo_ros_plugins_msgs && C:\AUVSimulation\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\catkin_generated\env_cached.bat C:/msys64/mingw64/bin/python3.exe "C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py" uuv_gazebo_ros_plugins_msgs C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/src/uuv_gazebo_ros_plugins_msgs/srv/GetListParam.srv "
+[9/58] cmd.exe /C "cd /D C:\AUVSimulation\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\uuv_gazebo_ros_plugins_msgs && C:\AUVSimulation\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\catkin_generated\env_cached.bat C:/msys64/mingw64/bin/python3.exe "C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py" uuv_gazebo_ros_plugins_msgs C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/src/uuv_gazebo_ros_plugins_msgs/srv/GetFloat.srv "
+[10/58] cmd.exe /C "cd /D C:\AUVSimulation\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\uuv_gazebo_ros_plugins_msgs && C:\AUVSimulation\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\catkin_generated\env_cached.bat C:/msys64/mingw64/bin/python3.exe "C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py" uuv_gazebo_ros_plugins_msgs C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/src/uuv_gazebo_ros_plugins_msgs/msg/ThrusterConversionFcn.msg "
+[11/58] cmd.exe /C "cd /D C:\AUVSimulation\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\uuv_gazebo_ros_plugins_msgs && C:\AUVSimulation\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\catkin_generated\env_cached.bat C:/msys64/mingw64/bin/python3.exe "C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py" uuv_gazebo_ros_plugins_msgs C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/src/uuv_gazebo_ros_plugins_msgs/msg/FloatStamped.msg std_msgs/Header"
+[12/58] cmd.exe /C "cd /D C:\AUVSimulation\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\uuv_gazebo_ros_plugins_msgs && C:\AUVSimulation\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\catkin_generated\env_cached.bat C:/msys64/mingw64/bin/python3.exe "C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py" uuv_gazebo_ros_plugins_msgs C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/src/uuv_gazebo_ros_plugins_msgs/srv/GetModelProperties.srv geometry_msgs/Vector3:geometry_msgs/Inertia:uuv_gazebo_ros_plugins_msgs/UnderwaterObjectModel"
+[13/58] cmd.exe /C "cd /D C:\AUVSimulation\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\uuv_gazebo_ros_plugins_msgs && C:\AUVSimulation\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build\catkin_generated\env_cached.bat C:/msys64/mingw64/bin/python3.exe "C:/Program Files/MATLAB/R2024b/sys/ros1/win64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py" uuv_gazebo_ros_plugins_msgs C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/src/uuv_gazebo_ros_plugins_msgs/srv/GetThrusterConversionFcn.srv uuv_gazebo_ros_plugins_msgs/ThrusterConversionFcn"
+[14/58] Generating C++ code from uuv_gazebo_ros_plugins_msgs/FloatStamped.msg
+[15/58] Generating C++ code from uuv_gazebo_ros_plugins_msgs/GetFloat.srv
+[16/58] Generating C++ code from uuv_gazebo_ros_plugins_msgs/GetModelProperties.srv
+[17/58] Generating C++ code from uuv_gazebo_ros_plugins_msgs/GetListParam.srv
+[18/58] Generating C++ code from uuv_gazebo_ros_plugins_msgs/GetThrusterConversionFcn.srv
+[19/58] Generating C++ code from uuv_gazebo_ros_plugins_msgs/ThrusterConversionFcn.msg
+[20/58] Generating C++ code from uuv_gazebo_ros_plugins_msgs/SetFloat.srv
+[21/58] Generating Python from MSG uuv_gazebo_ros_plugins_msgs/UnderwaterObjectModel
+[22/58] Generating C++ code from uuv_gazebo_ros_plugins_msgs/SetThrusterState.srv
+[23/58] Generating C++ code from uuv_gazebo_ros_plugins_msgs/UnderwaterObjectModel.msg
+[24/58] Generating Python from MSG uuv_gazebo_ros_plugins_msgs/ThrusterConversionFcn
+[25/58] Generating C++ code from uuv_gazebo_ros_plugins_msgs/SetThrusterEfficiency.srv
+[26/58] Generating C++ code from uuv_gazebo_ros_plugins_msgs/GetThrusterState.srv
+[27/58] Generating C++ code from uuv_gazebo_ros_plugins_msgs/SetUseGlobalCurrentVel.srv
+[28/58] Generating Python from MSG uuv_gazebo_ros_plugins_msgs/FloatStamped
+[29/58] Generating Python code from SRV uuv_gazebo_ros_plugins_msgs/GetThrusterState
+[30/58] Generating Python code from SRV uuv_gazebo_ros_plugins_msgs/SetFloat
+[31/58] Generating Python code from SRV uuv_gazebo_ros_plugins_msgs/GetThrusterEfficiency
+[32/58] Generating C++ code from uuv_gazebo_ros_plugins_msgs/GetThrusterEfficiency.srv
+[33/58] Generating Python code from SRV uuv_gazebo_ros_plugins_msgs/SetUseGlobalCurrentVel
+[34/58] Generating Python code from SRV uuv_gazebo_ros_plugins_msgs/SetThrusterState
+[35/58] Generating Python code from SRV uuv_gazebo_ros_plugins_msgs/GetThrusterConversionFcn
+[36/58] Generating Python code from SRV uuv_gazebo_ros_plugins_msgs/GetModelProperties
+[37/58] Generating Python code from SRV uuv_gazebo_ros_plugins_msgs/GetListParam
+[38/58] Generating Python code from SRV uuv_gazebo_ros_plugins_msgs/SetThrusterEfficiency
+[39/58] Generating Python code from SRV uuv_gazebo_ros_plugins_msgs/GetFloat
+[40/58] Building CXX object CMakeFiles\Project__setup_util.py_exec_install_python.dir\68d6a8b106053d8853ca6f5cf4e42532\Project__setup_util.py_exec_install_python\_setup_util.cpp.obj
+[41/58] Generating Python srv __init__.py for uuv_gazebo_ros_plugins_msgs
+[42/58] Generating Python msg __init__.py for uuv_gazebo_ros_plugins_msgs
+[43/58] Linking CXX executable catkin_generated\windows_wrappers\Project__setup_util.py_exec_install_python\_setup_util.exe
+[44/58] Building CXX object uuv_gazebo_ros_plugins_msgs\CMakeFiles\uuv_gazebo_ros_plugins_msgs_matlab.dir\src\uuv_gazebo_ros_plugins_msgs_FloatStamped_message.cpp.obj
+C:\Program Files\MATLAB\R2024b\sys\ros1\win64\ros1\boost\include\boost-1_81\boost/bind.hpp(77): note: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+[45/58] Building CXX object uuv_gazebo_ros_plugins_msgs\CMakeFiles\uuv_gazebo_ros_plugins_msgs_matlab.dir\src\uuv_gazebo_ros_plugins_msgs_ThrusterConversionFcn_message.cpp.obj
+C:\Program Files\MATLAB\R2024b\sys\ros1\win64\ros1\boost\include\boost-1_81\boost/bind.hpp(77): note: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+[46/58] Building CXX object uuv_gazebo_ros_plugins_msgs\CMakeFiles\uuv_gazebo_ros_plugins_msgs_matlab.dir\src\uuv_gazebo_ros_plugins_msgs_UnderwaterObjectModel_message.cpp.obj
+C:\Program Files\MATLAB\R2024b\sys\ros1\win64\ros1\boost\include\boost-1_81\boost/bind.hpp(77): note: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+[47/58] Building CXX object uuv_gazebo_ros_plugins_msgs\CMakeFiles\uuv_gazebo_ros_plugins_msgs_matlab.dir\src\uuv_gazebo_ros_plugins_msgs_SetFloat_service.cpp.obj
+C:\Program Files\MATLAB\R2024b\sys\ros1\win64\ros1\boost\include\boost-1_81\boost/bind.hpp(77): note: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+[48/58] Building CXX object uuv_gazebo_ros_plugins_msgs\CMakeFiles\uuv_gazebo_ros_plugins_msgs_matlab.dir\src\uuv_gazebo_ros_plugins_msgs_GetThrusterEfficiency_service.cpp.obj
+C:\Program Files\MATLAB\R2024b\sys\ros1\win64\ros1\boost\include\boost-1_81\boost/bind.hpp(77): note: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+[49/58] Building CXX object uuv_gazebo_ros_plugins_msgs\CMakeFiles\uuv_gazebo_ros_plugins_msgs_matlab.dir\src\uuv_gazebo_ros_plugins_msgs_GetThrusterState_service.cpp.obj
+C:\Program Files\MATLAB\R2024b\sys\ros1\win64\ros1\boost\include\boost-1_81\boost/bind.hpp(77): note: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+[50/58] Building CXX object uuv_gazebo_ros_plugins_msgs\CMakeFiles\uuv_gazebo_ros_plugins_msgs_matlab.dir\src\uuv_gazebo_ros_plugins_msgs_SetThrusterState_service.cpp.obj
+C:\Program Files\MATLAB\R2024b\sys\ros1\win64\ros1\boost\include\boost-1_81\boost/bind.hpp(77): note: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+[51/58] Building CXX object uuv_gazebo_ros_plugins_msgs\CMakeFiles\uuv_gazebo_ros_plugins_msgs_matlab.dir\src\uuv_gazebo_ros_plugins_msgs_SetUseGlobalCurrentVel_service.cpp.obj
+C:\Program Files\MATLAB\R2024b\sys\ros1\win64\ros1\boost\include\boost-1_81\boost/bind.hpp(77): note: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+[52/58] Building CXX object uuv_gazebo_ros_plugins_msgs\CMakeFiles\uuv_gazebo_ros_plugins_msgs_matlab.dir\src\uuv_gazebo_ros_plugins_msgs_GetFloat_service.cpp.obj
+C:\Program Files\MATLAB\R2024b\sys\ros1\win64\ros1\boost\include\boost-1_81\boost/bind.hpp(77): note: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+[53/58] Building CXX object uuv_gazebo_ros_plugins_msgs\CMakeFiles\uuv_gazebo_ros_plugins_msgs_matlab.dir\src\uuv_gazebo_ros_plugins_msgs_SetThrusterEfficiency_service.cpp.obj
+C:\Program Files\MATLAB\R2024b\sys\ros1\win64\ros1\boost\include\boost-1_81\boost/bind.hpp(77): note: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+[54/58] Building CXX object uuv_gazebo_ros_plugins_msgs\CMakeFiles\uuv_gazebo_ros_plugins_msgs_matlab.dir\src\uuv_gazebo_ros_plugins_msgs_GetThrusterConversionFcn_service.cpp.obj
+C:\Program Files\MATLAB\R2024b\sys\ros1\win64\ros1\boost\include\boost-1_81\boost/bind.hpp(77): note: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+[55/58] Building CXX object uuv_gazebo_ros_plugins_msgs\CMakeFiles\uuv_gazebo_ros_plugins_msgs_matlab.dir\src\uuv_gazebo_ros_plugins_msgs_GetListParam_service.cpp.obj
+C:\Program Files\MATLAB\R2024b\sys\ros1\win64\ros1\boost\include\boost-1_81\boost/bind.hpp(77): note: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+[56/58] Building CXX object uuv_gazebo_ros_plugins_msgs\CMakeFiles\uuv_gazebo_ros_plugins_msgs_matlab.dir\src\uuv_gazebo_ros_plugins_msgs_GetModelProperties_service.cpp.obj
+C:\Program Files\MATLAB\R2024b\sys\ros1\win64\ros1\boost\include\boost-1_81\boost/bind.hpp(77): note: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+[57/58] Linking CXX shared library C:\AUVSimulation\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\devel\bin\uuv_gazebo_ros_plugins_msgs_matlab.dll
+[57/58] Install the project...
+-- Install configuration: "Release"
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/_setup_util.py
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/_setup_util.exe
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/env.bat
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/setup.bat
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/local_setup.bat
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/.rosinstall
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/share/uuv_gazebo_ros_plugins_msgs/msg/FloatStamped.msg
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/share/uuv_gazebo_ros_plugins_msgs/msg/ThrusterConversionFcn.msg
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/share/uuv_gazebo_ros_plugins_msgs/msg/UnderwaterObjectModel.msg
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/share/uuv_gazebo_ros_plugins_msgs/srv/GetFloat.srv
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/share/uuv_gazebo_ros_plugins_msgs/srv/GetListParam.srv
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/share/uuv_gazebo_ros_plugins_msgs/srv/GetModelProperties.srv
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/share/uuv_gazebo_ros_plugins_msgs/srv/GetThrusterConversionFcn.srv
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/share/uuv_gazebo_ros_plugins_msgs/srv/GetThrusterEfficiency.srv
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/share/uuv_gazebo_ros_plugins_msgs/srv/GetThrusterState.srv
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/share/uuv_gazebo_ros_plugins_msgs/srv/SetFloat.srv
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/share/uuv_gazebo_ros_plugins_msgs/srv/SetThrusterEfficiency.srv
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/share/uuv_gazebo_ros_plugins_msgs/srv/SetThrusterState.srv
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/share/uuv_gazebo_ros_plugins_msgs/srv/SetUseGlobalCurrentVel.srv
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/share/uuv_gazebo_ros_plugins_msgs/cmake/uuv_gazebo_ros_plugins_msgs-msg-paths.cmake
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/include/uuv_gazebo_ros_plugins_msgs
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/include/uuv_gazebo_ros_plugins_msgs/FloatStamped.h
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/include/uuv_gazebo_ros_plugins_msgs/GetFloat.h
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/include/uuv_gazebo_ros_plugins_msgs/GetFloatRequest.h
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/include/uuv_gazebo_ros_plugins_msgs/GetFloatResponse.h
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/include/uuv_gazebo_ros_plugins_msgs/GetListParam.h
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/include/uuv_gazebo_ros_plugins_msgs/GetListParamRequest.h
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/include/uuv_gazebo_ros_plugins_msgs/GetListParamResponse.h
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/include/uuv_gazebo_ros_plugins_msgs/GetModelProperties.h
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/include/uuv_gazebo_ros_plugins_msgs/GetModelPropertiesRequest.h
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/include/uuv_gazebo_ros_plugins_msgs/GetModelPropertiesResponse.h
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/include/uuv_gazebo_ros_plugins_msgs/GetThrusterConversionFcn.h
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/include/uuv_gazebo_ros_plugins_msgs/GetThrusterConversionFcnRequest.h
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/include/uuv_gazebo_ros_plugins_msgs/GetThrusterConversionFcnResponse.h
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/include/uuv_gazebo_ros_plugins_msgs/GetThrusterEfficiency.h
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/include/uuv_gazebo_ros_plugins_msgs/GetThrusterEfficiencyRequest.h
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/include/uuv_gazebo_ros_plugins_msgs/GetThrusterEfficiencyResponse.h
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/include/uuv_gazebo_ros_plugins_msgs/GetThrusterState.h
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/include/uuv_gazebo_ros_plugins_msgs/GetThrusterStateRequest.h
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/include/uuv_gazebo_ros_plugins_msgs/GetThrusterStateResponse.h
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/include/uuv_gazebo_ros_plugins_msgs/SetFloat.h
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/include/uuv_gazebo_ros_plugins_msgs/SetFloatRequest.h
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/include/uuv_gazebo_ros_plugins_msgs/SetFloatResponse.h
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/include/uuv_gazebo_ros_plugins_msgs/SetThrusterEfficiency.h
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/include/uuv_gazebo_ros_plugins_msgs/SetThrusterEfficiencyRequest.h
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/include/uuv_gazebo_ros_plugins_msgs/SetThrusterEfficiencyResponse.h
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/include/uuv_gazebo_ros_plugins_msgs/SetThrusterState.h
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/include/uuv_gazebo_ros_plugins_msgs/SetThrusterStateRequest.h
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/include/uuv_gazebo_ros_plugins_msgs/SetThrusterStateResponse.h
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/include/uuv_gazebo_ros_plugins_msgs/SetUseGlobalCurrentVel.h
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/include/uuv_gazebo_ros_plugins_msgs/SetUseGlobalCurrentVelRequest.h
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/include/uuv_gazebo_ros_plugins_msgs/SetUseGlobalCurrentVelResponse.h
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/include/uuv_gazebo_ros_plugins_msgs/ThrusterConversionFcn.h
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/include/uuv_gazebo_ros_plugins_msgs/UnderwaterObjectModel.h
+Listing 'C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/devel/lib/site-packages/uuv_gazebo_ros_plugins_msgs'...
+Compiling 'C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/devel/lib/site-packages/uuv_gazebo_ros_plugins_msgs/__init__.py'...
+Listing 'C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/devel/lib/site-packages/uuv_gazebo_ros_plugins_msgs/msg'...
+Compiling 'C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/devel/lib/site-packages/uuv_gazebo_ros_plugins_msgs/msg/_FloatStamped.py'...
+Compiling 'C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/devel/lib/site-packages/uuv_gazebo_ros_plugins_msgs/msg/_ThrusterConversionFcn.py'...
+Compiling 'C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/devel/lib/site-packages/uuv_gazebo_ros_plugins_msgs/msg/_UnderwaterObjectModel.py'...
+Compiling 'C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/devel/lib/site-packages/uuv_gazebo_ros_plugins_msgs/msg/__init__.py'...
+Listing 'C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/devel/lib/site-packages/uuv_gazebo_ros_plugins_msgs/srv'...
+Compiling 'C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/devel/lib/site-packages/uuv_gazebo_ros_plugins_msgs/srv/_GetFloat.py'...
+Compiling 'C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/devel/lib/site-packages/uuv_gazebo_ros_plugins_msgs/srv/_GetListParam.py'...
+Compiling 'C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/devel/lib/site-packages/uuv_gazebo_ros_plugins_msgs/srv/_GetModelProperties.py'...
+Compiling 'C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/devel/lib/site-packages/uuv_gazebo_ros_plugins_msgs/srv/_GetThrusterConversionFcn.py'...
+Compiling 'C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/devel/lib/site-packages/uuv_gazebo_ros_plugins_msgs/srv/_GetThrusterEfficiency.py'...
+Compiling 'C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/devel/lib/site-packages/uuv_gazebo_ros_plugins_msgs/srv/_GetThrusterState.py'...
+Compiling 'C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/devel/lib/site-packages/uuv_gazebo_ros_plugins_msgs/srv/_SetFloat.py'...
+Compiling 'C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/devel/lib/site-packages/uuv_gazebo_ros_plugins_msgs/srv/_SetThrusterEfficiency.py'...
+Compiling 'C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/devel/lib/site-packages/uuv_gazebo_ros_plugins_msgs/srv/_SetThrusterState.py'...
+Compiling 'C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/devel/lib/site-packages/uuv_gazebo_ros_plugins_msgs/srv/_SetUseGlobalCurrentVel.py'...
+Compiling 'C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/devel/lib/site-packages/uuv_gazebo_ros_plugins_msgs/srv/__init__.py'...
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/lib/site-packages/uuv_gazebo_ros_plugins_msgs
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/lib/site-packages/uuv_gazebo_ros_plugins_msgs/msg
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/lib/site-packages/uuv_gazebo_ros_plugins_msgs/msg/_FloatStamped.py
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/lib/site-packages/uuv_gazebo_ros_plugins_msgs/msg/_ThrusterConversionFcn.py
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/lib/site-packages/uuv_gazebo_ros_plugins_msgs/msg/_UnderwaterObjectModel.py
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/lib/site-packages/uuv_gazebo_ros_plugins_msgs/msg/__init__.py
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/lib/site-packages/uuv_gazebo_ros_plugins_msgs/msg/__pycache__
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/lib/site-packages/uuv_gazebo_ros_plugins_msgs/msg/__pycache__/_FloatStamped.cpython-312.pyc
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/lib/site-packages/uuv_gazebo_ros_plugins_msgs/msg/__pycache__/_ThrusterConversionFcn.cpython-312.pyc
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/lib/site-packages/uuv_gazebo_ros_plugins_msgs/msg/__pycache__/_UnderwaterObjectModel.cpython-312.pyc
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/lib/site-packages/uuv_gazebo_ros_plugins_msgs/msg/__pycache__/__init__.cpython-312.pyc
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/lib/site-packages/uuv_gazebo_ros_plugins_msgs/srv
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/lib/site-packages/uuv_gazebo_ros_plugins_msgs/srv/_GetFloat.py
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/lib/site-packages/uuv_gazebo_ros_plugins_msgs/srv/_GetListParam.py
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/lib/site-packages/uuv_gazebo_ros_plugins_msgs/srv/_GetModelProperties.py
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/lib/site-packages/uuv_gazebo_ros_plugins_msgs/srv/_GetThrusterConversionFcn.py
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/lib/site-packages/uuv_gazebo_ros_plugins_msgs/srv/_GetThrusterEfficiency.py
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/lib/site-packages/uuv_gazebo_ros_plugins_msgs/srv/_GetThrusterState.py
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/lib/site-packages/uuv_gazebo_ros_plugins_msgs/srv/_SetFloat.py
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/lib/site-packages/uuv_gazebo_ros_plugins_msgs/srv/_SetThrusterEfficiency.py
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/lib/site-packages/uuv_gazebo_ros_plugins_msgs/srv/_SetThrusterState.py
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/lib/site-packages/uuv_gazebo_ros_plugins_msgs/srv/_SetUseGlobalCurrentVel.py
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/lib/site-packages/uuv_gazebo_ros_plugins_msgs/srv/__init__.py
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/lib/site-packages/uuv_gazebo_ros_plugins_msgs/srv/__pycache__
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/lib/site-packages/uuv_gazebo_ros_plugins_msgs/srv/__pycache__/_GetFloat.cpython-312.pyc
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/lib/site-packages/uuv_gazebo_ros_plugins_msgs/srv/__pycache__/_GetListParam.cpython-312.pyc
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/lib/site-packages/uuv_gazebo_ros_plugins_msgs/srv/__pycache__/_GetModelProperties.cpython-312.pyc
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/lib/site-packages/uuv_gazebo_ros_plugins_msgs/srv/__pycache__/_GetThrusterConversionFcn.cpython-312.pyc
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/lib/site-packages/uuv_gazebo_ros_plugins_msgs/srv/__pycache__/_GetThrusterEfficiency.cpython-312.pyc
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/lib/site-packages/uuv_gazebo_ros_plugins_msgs/srv/__pycache__/_GetThrusterState.cpython-312.pyc
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/lib/site-packages/uuv_gazebo_ros_plugins_msgs/srv/__pycache__/_SetFloat.cpython-312.pyc
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/lib/site-packages/uuv_gazebo_ros_plugins_msgs/srv/__pycache__/_SetThrusterEfficiency.cpython-312.pyc
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/lib/site-packages/uuv_gazebo_ros_plugins_msgs/srv/__pycache__/_SetThrusterState.cpython-312.pyc
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/lib/site-packages/uuv_gazebo_ros_plugins_msgs/srv/__pycache__/_SetUseGlobalCurrentVel.cpython-312.pyc
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/lib/site-packages/uuv_gazebo_ros_plugins_msgs/srv/__pycache__/__init__.cpython-312.pyc
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/lib/site-packages/uuv_gazebo_ros_plugins_msgs/__init__.py
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/lib/site-packages/uuv_gazebo_ros_plugins_msgs/__pycache__
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/lib/site-packages/uuv_gazebo_ros_plugins_msgs/__pycache__/__init__.cpython-312.pyc
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/lib/pkgconfig/uuv_gazebo_ros_plugins_msgs.pc
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/share/uuv_gazebo_ros_plugins_msgs/cmake/uuv_gazebo_ros_plugins_msgs-msg-extras.cmake
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/share/uuv_gazebo_ros_plugins_msgs/cmake/uuv_gazebo_ros_plugins_msgsConfig.cmake
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/share/uuv_gazebo_ros_plugins_msgs/cmake/uuv_gazebo_ros_plugins_msgsConfig-version.cmake
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/share/uuv_gazebo_ros_plugins_msgs/package.xml
+-- Up-to-date: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/include
+-- Up-to-date: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/include/uuv_gazebo_ros_plugins_msgs
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/include/uuv_gazebo_ros_plugins_msgs/visibility_control.h
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/lib/uuv_gazebo_ros_plugins_msgs_matlab.lib
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/bin/uuv_gazebo_ros_plugins_msgs_matlab.dll
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m/
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+internal
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/floatStamped.m
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/getFloatRequest.m
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/getFloatResponse.m
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/getListParamRequest.m
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/getListParamResponse.m
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/getModelPropertiesRequest.m
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/getModelPropertiesResponse.m
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/getThrusterConversionFcnRequest.m
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/getThrusterConversionFcnResponse.m
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/getThrusterEfficiencyRequest.m
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/getThrusterEfficiencyResponse.m
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/getThrusterStateRequest.m
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/getThrusterStateResponse.m
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/setFloatRequest.m
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/setFloatResponse.m
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/setThrusterEfficiencyRequest.m
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/setThrusterEfficiencyResponse.m
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/setThrusterStateRequest.m
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/setThrusterStateResponse.m
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/setUseGlobalCurrentVelRequest.m
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/setUseGlobalCurrentVelResponse.m
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/thrusterConversionFcn.m
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/underwaterObjectModel.m
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/FloatStamped.m
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/GetFloatRequest.m
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/GetFloatResponse.m
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/GetListParamRequest.m
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/GetListParamResponse.m
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/GetModelPropertiesRequest.m
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/GetModelPropertiesResponse.m
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/GetThrusterConversionFcnRequest.m
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/GetThrusterConversionFcnResponse.m
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/GetThrusterEfficiencyRequest.m
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/GetThrusterEfficiencyResponse.m
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/GetThrusterStateRequest.m
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/GetThrusterStateResponse.m
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/SetFloatRequest.m
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/SetFloatResponse.m
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/SetThrusterEfficiencyRequest.m
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/SetThrusterEfficiencyResponse.m
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/SetThrusterStateRequest.m
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/SetThrusterStateResponse.m
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/SetUseGlobalCurrentVelRequest.m
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/SetUseGlobalCurrentVelResponse.m
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/ThrusterConversionFcn.m
+-- Installing: C:/AUVSimulation/Underwater-Drone/Simulation/matlab_ros_msgs/matlab_msg_gen_ros1/win64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/UnderwaterObjectModel.m
+Base path: C:\AUVSimulation\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64
+Source space: C:\AUVSimulation\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\src
+Build space: C:\AUVSimulation\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build
+Devel space: C:\AUVSimulation\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\devel
+Install space: C:\AUVSimulation\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\install
+####
+#### Running command: "cmake C:\AUVSimulation\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\src -DALIAS_ROS1_CLASS_LOADER=1 -DBoost_NAMESPACE=mwboost -DCATKIN_ENABLE_TESTING=off -DCMAKE_PREFIX_PATH=C:\Program Files\MATLAB\R2024b\sys\ros1\win64\ros1;C:/Program Files/MATLAB/R2024b/toolbox/ros/mlroscpp/custom_messages -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS_RELEASE=/MD /Od /Ob2 /DNDEBUG -DCATKIN_DEVEL_PREFIX=C:\AUVSimulation\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\devel -DCMAKE_INSTALL_PREFIX=C:\AUVSimulation\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\install -G Ninja" in "C:\AUVSimulation\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build"
+####
+####
+#### Running command: "ninja install install -j16 -l16" in "C:\AUVSimulation\Underwater-Drone\Simulation\matlab_ros_msgs\matlab_msg_gen_ros1\win64\build"
+####

@@ -1,0 +1,18 @@
+In PowerShell
+
+In two separate terminals run `wsl -d Ubuntu-18.04` to open Windows Subsystem Linux.
+
+In the first terminal run the command `roslaunch uuv_descriptions upload_rexrov.launch` to run the backend server.
+
+In the second terminal run the command `roslaunch uuv_gazebo_ros_plugins uuv_simulation.launch` to run the GUI and simulation.
+If this command does not work, try running `source /opt/ros/melodic/setup.bash` then run the command again.
+
+
+To install the uuvsimulator, install ROS melodic on Ubuntu-18.04.
+
+All steps can be found in main GitHub page: https://github.com/uuvsimulator/uuv_simulator
+
+
+run before running ROS:
+source /opt/ros/melodic/setup.bash
+source ~/catkin_ws/devel/setup.bash
