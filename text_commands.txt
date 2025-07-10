@@ -1,18 +1,35 @@
-In PowerShell
-
-In two separate terminals run `wsl -d Ubuntu-18.04` to open Windows Subsystem Linux.
-
-In the first terminal run the command `roslaunch uuv_descriptions upload_rexrov.launch` to run the backend server.
-
-In the second terminal run the command `roslaunch uuv_gazebo_ros_plugins uuv_simulation.launch` to run the GUI and simulation.
-If this command does not work, try running `source /opt/ros/melodic/setup.bash` then run the command again.
-
-
 To install the uuvsimulator, install ROS melodic on Ubuntu-18.04.
 
 All steps can be found in main GitHub page: https://github.com/uuvsimulator/uuv_simulator
 
+need the following packages:
+sudo apt install ros-melodic-uuv-sensor-ros-plugins
 
-run before running ROS:
+
+
+In PowerShell:
+
+In two separate terminals run `wsl -d Ubuntu-18.04` to open Windows Subsystem Linux.
+
+In the first terminal run the command `roslaunch uuv_descriptions upload_rexrov.launch` to upload the model.
+
+In the second terminal run the command `roslaunch uuv_gazebo_worlds ocean_waves.launch` to run the GUI and simulation.
+
+
+
+run:
+export ROS_MASTER_URI=http://172.21.161.189:11311
+export ROS_HOSTNAME=172.21.161.189
+
+roslaunch uuv_descriptions upload_rexrov.launch
+roslaunch uuv_gazebo_worlds ocean_waves.launch
+
+
+if not working, may need to run:
 source /opt/ros/melodic/setup.bash
 source ~/catkin_ws/devel/setup.bash
+
+echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
+
+
+
