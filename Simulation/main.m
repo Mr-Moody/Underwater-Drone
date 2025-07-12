@@ -9,6 +9,8 @@ DENSITY = 7800;
 %Initialise WSL ROS connection
 setenv('ROS_MASTER_URI', 'http://172.21.161.189:11311'); % ROS on WSL IP
 setenv('ROS_IP', '192.168.1.116'); %laptops IP
+
+%% Run ROS Environment
 rosinit('http://172.21.161.189:11311'); % same as ROS on WSL IP
 
 
